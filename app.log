@@ -1,0 +1,902 @@
+2024-05-25 08:27:25,912 INFO werkzeug MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-05-25 08:27:25,912 INFO werkzeug MainThread : [33mPress CTRL+C to quit[0m
+2024-05-25 08:27:25,916 INFO werkzeug MainThread :  * Restarting with stat
+2024-05-25 08:27:26,614 WARNING werkzeug MainThread :  * Debugger is active!
+2024-05-25 08:27:26,616 INFO werkzeug MainThread :  * Debugger PIN: 685-773-196
+2024-05-25 08:28:11,758 INFO app Thread-4 (process_request_thread) : Rendering index page
+2024-05-25 08:28:11,763 INFO werkzeug Thread-4 (process_request_thread) : 127.0.0.1 - - [25/May/2024 08:28:11] "GET / HTTP/1.1" 200 -
+2024-05-25 08:28:19,854 INFO app Thread-6 (process_request_thread) : Search initiated for keyword: iphone12
+2024-05-25 08:28:20,105 INFO app Thread-6 (process_request_thread) : Connected to MongoDB
+2024-05-25 08:28:22,675 INFO app Thread-6 (process_request_thread) : Fetched and parsed Flipkart search page
+2024-05-25 08:28:22,688 INFO app Thread-6 (process_request_thread) : Extracted product links
+2024-05-25 08:28:22,691 INFO app Thread-6 (process_request_thread) : Product link constructed: https://www.flipkart.com/apple-iphone-12-blue-128-gb/p/itm02853ae92e90a?pid=MOBFWBYZKPTZF9VG&lid=LSTMOBFWBYZKPTZF9VGHUA0UC&marketplace=FLIPKART&q=iphone12&store=tyy%2F4io&srno=s_1_3&otracker=search&fm=organic&iid=fceb5fa0-f356-4d0a-aecc-dfb9f8d76d53.MOBFWBYZKPTZF9VG.SEARCH&ppt=None&ppn=None&ssid=asgiyn6fr40000001716650892467&qH=ad588135f239b88b
+2024-05-25 08:28:23,487 INFO app Thread-6 (proccess_request_thread) : Fetched and parsed product details page
+2024-05-25 08:28:23,495 INFO app Thread-6 (process_request_thread) : Last link extracted: /apple-iphone-12-blue-128-gb/product-reviews/itm02853ae92e90a?pid=MOBFWBYZKPTZF9VG&lid=LSTMOBFWBYZKPTZF9VGHUA0UC&marketplace=FLIPKART
+2024-05-25 08:28:23,496 INFO app Thread-6 (process_request_thread) : Full product link constructed: https://www.flipkart.com/apple-iphone-12-blue-128-gb/product-reviews/itm02853ae92e90a?pid=MOBFWBYZKPTZF9VG&lid=LSTMOBFWBYZKPTZF9VGHUA0UC&marketplace=FLIPKART
+2024-05-25 08:28:24,111 INFO app Thread-6 (process_request_thread) : Fetched and parsed final product details page
+2024-05-25 08:28:24,114 INFO app Thread-6 (process_request_thread) : Collected results from comment boxes
+2024-05-25 08:28:24,549 INFO app Thread-6 (process_request_thread) : Inserted results into MongoDB
+2024-05-25 08:28:24,550 INFO app Thread-6 (process_request_thread) : Wrote results to CSV file: iphone12_reviews.csv
+2024-05-25 08:28:24,554 INFO werkzeug Thread-6 (process_request_thread) : 127.0.0.1 - - [25/May/2024 08:28:24] "POST /search HTTP/1.1" 200 -
+2024-05-25 10:06:50,206 INFO werkzeug MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-05-25 10:06:50,207 INFO werkzeug MainThread : [33mPress CTRL+C to quit[0m
+2024-05-25 10:06:50,214 INFO werkzeug MainThread :  * Restarting with stat
+2024-05-25 10:06:50,808 WARNING werkzeug MainThread :  * Debugger is active!
+2024-05-25 10:06:50,815 INFO werkzeug MainThread :  * Debugger PIN: 685-773-196
+2024-05-25 10:07:55,036 INFO werkzeug MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-05-25 10:07:55,036 INFO werkzeug MainThread : [33mPress CTRL+C to quit[0m
+2024-05-25 10:07:55,038 INFO werkzeug MainThread :  * Restarting with stat
+2024-05-25 10:07:55,718 WARNING werkzeug MainThread :  * Debugger is active!
+2024-05-25 10:07:55,721 INFO werkzeug MainThread :  * Debugger PIN: 685-773-196
+2024-05-25 10:12:38,472 INFO app Thread-4 (process_request_thread) : Search initiated for keyword: iphone13
+2024-05-25 10:12:39,090 INFO app Thread-4 (process_request_thread) : Connected to MongoDB
+2024-05-25 10:12:39,724 INFO app Thread-4 (process_request_thread) : Fetched and parsed Flipkart search page
+2024-05-25 10:12:39,767 INFO app Thread-4 (process_request_thread) : Extracted product links
+2024-05-25 10:12:39,768 INFO app Thread-4 (process_request_thread) : Product link constructed: https://www.flipkart.com/apple-iphone-13-blue-128-gb/p/itm6c601e0a58b3c?pid=MOBG6VF5SMXPNQHG&lid=LSTMOBG6VF5SMXPNQHGTJUCOX&marketplace=FLIPKART&q=iphone13&store=tyy%2F4io&srno=s_1_3&otracker=search&fm=organic&iid=bfcd144c-149e-4166-8b2f-6bab619c87d8.MOBG6VF5SMXPNQHG.SEARCH&ppt=None&ppn=None&ssid=fiya36yekw0000001716657149145&qH=7d4afaedfc628b80
+2024-05-25 10:12:40,658 INFO app Thread-4 (process_request_thread) : Fetched and parsed product details page
+2024-05-25 10:12:40,658 INFO app Thread-4 (process_request_thread) : Last link extracted: /apple-iphone-13-blue-128-gb/product-reviews/itm6c601e0a58b3c?pid=MOBG6VF5SMXPNQHG&lid=LSTMOBG6VF5SMXPNQHGTJUCOX&marketplace=FLIPKART
+2024-05-25 10:12:40,658 INFO app Thread-4 (process_request_thread) : Full product link constructed: https://www.flipkart.com/apple-iphone-13-blue-128-gb/product-reviews/itm6c601e0a58b3c?pid=MOBG6VF5SMXPNQHG&lid=LSTMOBG6VF5SMXPNQHGTJUCOX&marketplace=FLIPKART
+2024-05-25 10:12:41,155 INFO app Thread-4 (process_request_thread) : Fetched and parsed final product details page
+2024-05-25 10:12:41,158 INFO app Thread-4 (process_request_thread) : Collected results from comment boxes
+2024-05-25 10:12:41,367 INFO app Thread-4 (process_request_thread) : Inserted results into MongoDB
+2024-05-25 10:12:41,368 INFO app Thread-4 (process_request_thread) : Wrote results to CSV file: iphone13_reviews.csv
+2024-05-25 10:12:41,558 INFO werkzeug Thread-4 (process_request_thread) : 127.0.0.1 - - [25/May/2024 10:12:41] "POST /search HTTP/1.1" 200 -
+2024-05-25 22:59:29,261 INFO werkzeug MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-05-25 22:59:29,262 INFO werkzeug MainThread : [33mPress CTRL+C to quit[0m
+2024-05-25 22:59:29,269 INFO werkzeug MainThread :  * Restarting with stat
+2024-05-25 22:59:29,855 WARNING werkzeug MainThread :  * Debugger is active!
+2024-05-25 22:59:29,860 INFO werkzeug MainThread :  * Debugger PIN: 685-773-196
+2024-05-25 22:59:41,530 INFO app Thread-2 (process_request_thread) : Rendering index page
+2024-05-25 22:59:41,589 INFO werkzeug Thread-2 (process_request_thread) : 127.0.0.1 - - [25/May/2024 22:59:41] "GET / HTTP/1.1" 200 -
+2024-05-25 22:59:41,775 INFO werkzeug Thread-3 (process_request_thread) : 127.0.0.1 - - [25/May/2024 22:59:41] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-05-25 22:59:49,609 INFO app Thread-4 (process_request_thread) : Search initiated for keyword: iphone13
+2024-05-25 22:59:50,085 INFO app Thread-4 (process_request_thread) : Connected to MongoDB
+2024-05-25 22:59:50,759 INFO app Thread-4 (process_request_thread) : Fetched and parsed Flipkart search page
+2024-05-25 22:59:50,772 INFO app Thread-4 (process_request_thread) : Extracted product links
+2024-05-25 22:59:50,772 INFO app Thread-4 (process_request_thread) : Product link constructed: https://www.flipkart.com/apple-iphone-13-pink-128-gb/p/itm6e30c6ee045d2?pid=MOBG6VF5GXVFTQ5Y&lid=LSTMOBG6VF5GXVFTQ5YWKHB1V&marketplace=FLIPKART&q=iphone13&store=tyy%2F4io&srno=s_1_3&otracker=search&fm=organic&iid=905f0799-f238-4725-8cdd-08b56bfc480a.MOBG6VF5GXVFTQ5Y.SEARCH&ppt=None&ppn=None&ssid=z4zsv2mdwg0000001716703178641&qH=7d4afaedfc628b80
+2024-05-25 22:59:51,756 INFO app Thread-4 (process_request_thread) : Fetched and parsed product details page
+2024-05-25 22:59:51,776 INFO app Thread-4 (process_request_thread) : Last link extracted: /apple-iphone-13-pink-128-gb/product-reviews/itm6e30c6ee045d2?pid=MOBG6VF5GXVFTQ5Y&lid=LSTMOBG6VF5GXVFTQ5YWKHB1V&marketplace=FLIPKART
+2024-05-25 22:59:51,776 INFO app Thread-4 (process_request_thread) : Full product link constructed: https://www.flipkart.com/apple-iphone-13-pink-128-gb/product-reviews/itm6e30c6ee045d2?pid=MOBG6VF5GXVFTQ5Y&lid=LSTMOBG6VF5GXVFTQ5YWKHB1V&marketplace=FLIPKART
+2024-05-25 22:59:52,254 INFO app Thread-4 (process_request_thread) : Fetched and parsed final product details page
+2024-05-25 22:59:52,258 INFO app Thread-4 (process_request_thread) : Collected results from comment boxes
+2024-05-25 22:59:52,453 INFO app Thread-4 (process_request_thread) : Inserted results into MongoDB
+2024-05-25 22:59:52,454 INFO app Thread-4 (process_request_thread) : Wrote results to CSV file: iphone13_reviews.csv
+2024-05-25 22:59:52,465 INFO werkzeug Thread-4 (process_request_thread) : 127.0.0.1 - - [25/May/2024 22:59:52] "POST /search HTTP/1.1" 200 -
+2024-05-25 23:27:50,590 INFO werkzeug MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://192.168.1.108:5000
+2024-05-25 23:27:50,590 INFO werkzeug MainThread : [33mPress CTRL+C to quit[0m
+2024-05-25 23:27:50,594 INFO werkzeug MainThread :  * Restarting with stat
+2024-05-25 23:27:51,520 WARNING werkzeug MainThread :  * Debugger is active!
+2024-05-25 23:27:51,526 INFO werkzeug MainThread :  * Debugger PIN: 685-773-196
+2024-05-25 23:28:26,374 INFO aapp1 Thread-2 (process_request_thread) : Rendering index page
+2024-05-25 23:28:26,381 INFO werkzeug Thread-2 (process_request_thread) : 192.168.1.108 - - [25/May/2024 23:28:26] "GET / HTTP/1.1" 200 -
+2024-05-25 23:28:27,337 INFO werkzeug Thread-3 (process_request_thread) : 192.168.1.108 - - [25/May/2024 23:28:27] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-05-25 23:28:33,040 INFO aapp1 Thread-5 (process_request_thread) : Search initiated for keyword: iphone12
+2024-05-25 23:28:33,309 INFO aapp1 Thread-5 (process_request_thread) : Connected to MongoDB
+2024-05-25 23:28:33,992 INFO aapp1 Thread-5 (process_request_thread) : Fetched and parsed Flipkart search page
+2024-05-25 23:28:33,997 INFO aapp1 Thread-5 (process_request_thread) : Extracted product links
+2024-05-25 23:28:33,997 INFO aapp1 Thread-5 (process_request_thread) : Product link constructed: https://www.flipkart.com/apple-iphone-12-blue-64-gb/p/itm5778ad0d0d255?pid=MOBFWBYZ8DNJNY7N&lid=LSTMOBFWBYZ8DNJNY7NMWAWOJ&marketplace=FLIPKART&q=iphone12&store=tyy%2F4io&srno=s_1_3&otracker=search&fm=organic&iid=ea0737f1-2ab2-40c7-aa66-6d304edf49e8.MOBFWBYZ8DNJNY7N.SEARCH&ppt=None&ppn=None&ssid=jkqycd0xg00000001716704901885&qH=ad588135f239b88b
+2024-05-25 23:28:34,857 INFO aapp1 Thread-5 (process_request_thread) : Fetched and parsed product details page
+2024-05-25 23:28:34,864 INFO aapp1 Thread-5 (process_request_thread) : Last link extracted: /apple-iphone-12-blue-64-gb/product-reviews/itm5778ad0d0d255?pid=MOBFWBYZ8DNJNY7N&lid=LSTMOBFWBYZ8DNJNY7NMWAWOJ&marketplace=FLIPKART
+2024-05-25 23:28:34,864 INFO aapp1 Thread-5 (process_request_thread) : Full product link constructed: https://www.flipkart.com/apple-iphone-12-blue-64-gb/product-reviews/itm5778ad0d0d255?pid=MOBFWBYZ8DNJNY7N&lid=LSTMOBFWBYZ8DNJNY7NMWAWOJ&marketplace=FLIPKART
+2024-05-25 23:28:35,331 INFO aapp1 Thread-5 (process_request_thread) : Fetched and parsed final product details page
+2024-05-25 23:28:35,331 INFO aapp1 Thread-5 (process_request_thread) : Collected results from comment boxes
+2024-05-25 23:28:35,566 INFO aapp1 Thread-5 (process_request_thread) : Inserted results into MongoDB
+2024-05-25 23:28:35,568 INFO aapp1 Thread-5 (process_request_thread) : Wrote results to CSV file: iphone12_reviews.csv
+2024-05-25 23:28:35,573 INFO werkzeug Thread-5 (process_request_thread) : 192.168.1.108 - - [25/May/2024 23:28:35] "POST /search HTTP/1.1" 200 -
+2024-05-25 23:35:48,517 INFO werkzeug MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://192.168.1.108:5000
+2024-05-25 23:35:48,517 INFO werkzeug MainThread : [33mPress CTRL+C to quit[0m
+2024-05-25 23:35:48,520 INFO werkzeug MainThread :  * Restarting with stat
+2024-05-25 23:35:49,112 WARNING werkzeug MainThread :  * Debugger is active!
+2024-05-25 23:35:49,114 INFO werkzeug MainThread :  * Debugger PIN: 685-773-196
+2024-05-25 23:38:46,448 INFO werkzeug MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://192.168.1.108:5000
+2024-05-25 23:38:46,448 INFO werkzeug MainThread : [33mPress CTRL+C to quit[0m
+2024-05-25 23:38:46,449 INFO werkzeug MainThread :  * Restarting with stat
+2024-05-25 23:38:47,043 WARNING werkzeug MainThread :  * Debugger is active!
+2024-05-25 23:38:47,047 INFO werkzeug MainThread :  * Debugger PIN: 685-773-196
+2024-05-25 23:38:51,827 INFO aapp1 Thread-2 (process_request_thread) : Rendering index page
+2024-05-25 23:38:51,830 INFO werkzeug Thread-2 (process_request_thread) : 192.168.1.108 - - [25/May/2024 23:38:51] "GET / HTTP/1.1" 200 -
+2024-05-25 23:38:59,153 INFO aapp1 Thread-5 (process_request_thread) : Search initiated for keyword: iphone13
+2024-05-25 23:38:59,314 INFO aapp1 Thread-5 (process_request_thread) : Connected to MongoDB
+2024-05-25 23:38:59,819 INFO aapp1 Thread-5 (process_request_thread) : Fetched and parsed Flipkart search page
+2024-05-25 23:38:59,829 INFO aapp1 Thread-5 (process_request_thread) : Extracted product links
+2024-05-25 23:38:59,829 INFO aapp1 Thread-5 (process_request_thread) : Product link constructed: https://www.flipkart.com/apple-iphone-13-pink-128-gb/p/itm6e30c6ee045d2?pid=MOBG6VF5GXVFTQ5Y&lid=LSTMOBG6VF5GXVFTQ5YWKHB1V&marketplace=FLIPKART&q=iphone13&store=tyy%2F4io&srno=s_1_3&otracker=search&fm=organic&iid=5882ac51-2e77-4c81-8495-79e437861bab.MOBG6VF5GXVFTQ5Y.SEARCH&ppt=None&ppn=None&ssid=yi5jzelnps0000001716705527731&qH=7d4afaedfc628b80
+2024-05-25 23:39:00,714 INFO aapp1 Thread-5 (process_request_thread) : Fetched and parsed product details page
+2024-05-25 23:39:00,732 INFO aapp1 Thread-5 (process_request_thread) : Last link extracted: /apple-iphone-13-pink-128-gb/product-reviews/itm6e30c6ee045d2?pid=MOBG6VF5GXVFTQ5Y&lid=LSTMOBG6VF5GXVFTQ5YWKHB1V&marketplace=FLIPKART
+2024-05-25 23:39:00,732 INFO aapp1 Thread-5 (process_request_thread) : Full product link constructed: https://www.flipkart.com/apple-iphone-13-pink-128-gb/product-reviews/itm6e30c6ee045d2?pid=MOBG6VF5GXVFTQ5Y&lid=LSTMOBG6VF5GXVFTQ5YWKHB1V&marketplace=FLIPKART
+2024-05-25 23:39:01,181 INFO aapp1 Thread-5 (process_request_thread) : Fetched and parsed final product details page
+2024-05-25 23:39:01,181 INFO aapp1 Thread-5 (process_request_thread) : Collected results from comment boxes
+2024-05-25 23:39:01,381 INFO aapp1 Thread-5 (process_request_thread) : Inserted results into MongoDB
+2024-05-25 23:39:01,381 INFO aapp1 Thread-5 (process_request_thread) : Wrote results to CSV file: iphone13_reviews.csv
+2024-05-25 23:39:01,381 INFO werkzeug Thread-5 (process_request_thread) : 192.168.1.108 - - [25/May/2024 23:39:01] "POST /search HTTP/1.1" 200 -
+2024-05-25 23:40:39,481 INFO aapp1 Thread-7 (process_request_thread) : Rendering index page
+2024-05-25 23:40:39,486 INFO werkzeug Thread-7 (process_request_thread) : 192.168.1.108 - - [25/May/2024 23:40:39] "GET / HTTP/1.1" 200 -
+2024-05-25 23:40:39,640 INFO werkzeug Thread-8 (process_request_thread) : 192.168.1.108 - - [25/May/2024 23:40:39] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-05-25 23:40:44,426 INFO aapp1 Thread-9 (process_request_thread) : Search initiated for keyword: iphone11
+2024-05-25 23:40:44,547 INFO aapp1 Thread-9 (process_request_thread) : Connected to MongoDB
+2024-05-25 23:40:45,079 INFO aapp1 Thread-9 (process_request_thread) : Fetched and parsed Flipkart search page
+2024-05-25 23:40:45,090 INFO aapp1 Thread-9 (process_request_thread) : Extracted product links
+2024-05-25 23:40:45,090 INFO aapp1 Thread-9 (process_request_thread) : Product link constructed: https://www.flipkart.com/apple-iphone-11-white-128-gb/p/itme32df47ea6742?pid=MOBFWQ6B7KKRXDDS&lid=LSTMOBFWQ6B7KKRXDDSULUZ0N&marketplace=FLIPKART&q=iphone11&store=tyy%2F4io&srno=s_1_3&otracker=search&fm=organic&iid=e9619e87-62e8-41eb-b11b-15c1b0c2df5b.MOBFWQ6B7KKRXDDS.SEARCH&ppt=None&ppn=None&ssid=zrmj4hnaao0000001716705632997&qH=d6db477051465f9a
+2024-05-25 23:40:45,840 INFO aapp1 Thread-9 (process_request_thread) : Fetched and parsed product details page
+2024-05-25 23:40:45,850 INFO aapp1 Thread-9 (process_request_thread) : Last link extracted: /apple-iphone-11-white-128-gb/product-reviews/itme32df47ea6742?pid=MOBFWQ6B7KKRXDDS&lid=LSTMOBFWQ6B7KKRXDDSULUZ0N&marketplace=FLIPKART
+2024-05-25 23:40:45,850 INFO aapp1 Thread-9 (process_request_thread) : Full product link constructed: https://www.flipkart.com/apple-iphone-11-white-128-gb/product-reviews/itme32df47ea6742?pid=MOBFWQ6B7KKRXDDS&lid=LSTMOBFWQ6B7KKRXDDSULUZ0N&marketplace=FLIPKART
+2024-05-25 23:40:46,027 ERROR aapp1 Thread-9 (process_request_thread) : An error occurred: HTTP Error 429: Too Many Requests
+Traceback (most recent call last):
+  File "C:\Users\admin\PycharmProjects\pythonProject2\aapp1.py", line 89, in search
+    product_req = urlopen(product_link)
+                  ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\urllib\request.py", line 216, in urlopen
+    return opener.open(url, data, timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\urllib\request.py", line 525, in open
+    response = meth(req, response)
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\urllib\request.py", line 634, in http_response
+    response = self.parent.error(
+               ^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\urllib\request.py", line 563, in error
+    return self._call_chain(*args)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\urllib\request.py", line 496, in _call_chain
+    result = func(*args)
+             ^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\urllib\request.py", line 643, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 429: Too Many Requests
+2024-05-25 23:40:46,032 INFO werkzeug Thread-9 (process_request_thread) : 192.168.1.108 - - [25/May/2024 23:40:46] "POST /search HTTP/1.1" 200 -
+2024-05-25 23:40:51,649 INFO aapp1 Thread-10 (process_request_thread) : Search initiated for keyword: iphone11
+2024-05-25 23:40:51,759 INFO aapp1 Thread-10 (process_request_thread) : Connected to MongoDB
+2024-05-25 23:40:52,187 INFO aapp1 Thread-10 (process_request_thread) : Fetched and parsed Flipkart search page
+2024-05-25 23:40:52,200 INFO aapp1 Thread-10 (process_request_thread) : Extracted product links
+2024-05-25 23:40:52,200 INFO aapp1 Thread-10 (process_request_thread) : Product link constructed: https://www.flipkart.com/apple-iphone-11-white-128-gb/p/itme32df47ea6742?pid=MOBFWQ6B7KKRXDDS&lid=LSTMOBFWQ6B7KKRXDDSULUZ0N&marketplace=FLIPKART&q=iphone11&store=tyy%2F4io&srno=s_1_3&otracker=search&fm=organic&iid=e7126d87-164b-4b33-aabe-5c5de3c8c5bc.MOBFWQ6B7KKRXDDS.SEARCH&ppt=None&ppn=None&ssid=5plgnawkfk0000001716705640100&qH=d6db477051465f9a
+2024-05-25 23:40:52,890 INFO aapp1 Thread-10 (process_request_thread) : Fetched and parsed product details page
+2024-05-25 23:40:52,898 INFO aapp1 Thread-10 (process_request_thread) : Last link extracted: /apple-iphone-11-white-128-gb/product-reviews/itme32df47ea6742?pid=MOBFWQ6B7KKRXDDS&lid=LSTMOBFWQ6B7KKRXDDSULUZ0N&marketplace=FLIPKART
+2024-05-25 23:40:52,898 INFO aapp1 Thread-10 (process_request_thread) : Full product link constructed: https://www.flipkart.com/apple-iphone-11-white-128-gb/product-reviews/itme32df47ea6742?pid=MOBFWQ6B7KKRXDDS&lid=LSTMOBFWQ6B7KKRXDDSULUZ0N&marketplace=FLIPKART
+2024-05-25 23:40:53,355 INFO aapp1 Thread-10 (process_request_thread) : Fetched and parsed final product details page
+2024-05-25 23:40:53,357 INFO aapp1 Thread-10 (process_request_thread) : Collected results from comment boxes
+2024-05-25 23:40:53,567 INFO aapp1 Thread-10 (process_request_thread) : Inserted results into MongoDB
+2024-05-25 23:40:53,570 INFO aapp1 Thread-10 (process_request_thread) : Wrote results to CSV file: iphone11_reviews.csv
+2024-05-25 23:40:53,571 INFO werkzeug Thread-10 (process_request_thread) : 192.168.1.108 - - [25/May/2024 23:40:53] "POST /search HTTP/1.1" 200 -
+2024-05-25 23:49:31,717 INFO werkzeug MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://192.168.1.106:5000
+2024-05-25 23:49:31,717 INFO werkzeug MainThread : [33mPress CTRL+C to quit[0m
+2024-05-25 23:49:31,727 INFO werkzeug MainThread :  * Restarting with stat
+2024-05-25 23:49:32,356 WARNING werkzeug MainThread :  * Debugger is active!
+2024-05-25 23:49:32,360 INFO werkzeug MainThread :  * Debugger PIN: 685-773-196
+2024-05-25 23:49:52,912 INFO aapp1 Thread-2 (process_request_thread) : Rendering index page
+2024-05-25 23:49:53,036 INFO werkzeug Thread-2 (process_request_thread) : 192.168.1.106 - - [25/May/2024 23:49:53] "GET / HTTP/1.1" 200 -
+2024-05-25 23:49:53,164 INFO werkzeug Thread-3 (process_request_thread) : 192.168.1.106 - - [25/May/2024 23:49:53] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-05-25 23:49:58,883 INFO aapp1 Thread-4 (process_request_thread) : Search initiated for keyword: iphone12
+2024-05-25 23:49:59,234 INFO aapp1 Thread-4 (process_request_thread) : Connected to MongoDB
+2024-05-25 23:49:59,892 INFO aapp1 Thread-4 (process_request_thread) : Fetched and parsed Flipkart search page
+2024-05-25 23:49:59,905 INFO aapp1 Thread-4 (process_request_thread) : Extracted product links
+2024-05-25 23:49:59,905 INFO aapp1 Thread-4 (process_request_thread) : Product link constructed: https://www.flipkart.com/apple-iphone-12-blue-64-gb/p/itm5778ad0d0d255?pid=MOBFWBYZ8DNJNY7N&lid=LSTMOBFWBYZ8DNJNY7NMWAWOJ&marketplace=FLIPKART&q=iphone12&store=tyy%2F4io&srno=s_1_3&otracker=search&fm=organic&iid=b1fc4dc6-6f14-4d33-b800-8e48bf4f1df4.MOBFWBYZ8DNJNY7N.SEARCH&ppt=None&ppn=None&ssid=l21yhsees00000001716706187446&qH=ad588135f239b88b
+2024-05-25 23:50:00,866 INFO aapp1 Thread-4 (process_request_thread) : Fetched and parsed product details page
+2024-05-25 23:50:00,875 INFO aapp1 Thread-4 (process_request_thread) : Last link extracted: /apple-iphone-12-blue-64-gb/product-reviews/itm5778ad0d0d255?pid=MOBFWBYZ8DNJNY7N&lid=LSTMOBFWBYZ8DNJNY7NMWAWOJ&marketplace=FLIPKART
+2024-05-25 23:50:00,875 INFO aapp1 Thread-4 (process_request_thread) : Full product link constructed: https://www.flipkart.com/apple-iphone-12-blue-64-gb/product-reviews/itm5778ad0d0d255?pid=MOBFWBYZ8DNJNY7N&lid=LSTMOBFWBYZ8DNJNY7NMWAWOJ&marketplace=FLIPKART
+2024-05-25 23:50:01,195 ERROR aapp1 Thread-4 (process_request_thread) : An error occurred: HTTP Error 429: Too Many Requests
+Traceback (most recent call last):
+  File "C:\Users\admin\PycharmProjects\pythonProject2\aapp1.py", line 89, in search
+    product_req = urlopen(product_link)
+                  ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\urllib\request.py", line 216, in urlopen
+    return opener.open(url, data, timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\urllib\request.py", line 525, in open
+    response = meth(req, response)
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\urllib\request.py", line 634, in http_response
+    response = self.parent.error(
+               ^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\urllib\request.py", line 563, in error
+    return self._call_chain(*args)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\urllib\request.py", line 496, in _call_chain
+    result = func(*args)
+             ^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\urllib\request.py", line 643, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 429: Too Many Requests
+2024-05-25 23:50:01,422 INFO werkzeug Thread-4 (process_request_thread) : 192.168.1.106 - - [25/May/2024 23:50:01] "POST /search HTTP/1.1" 200 -
+2024-05-25 23:50:04,676 INFO aapp1 Thread-6 (process_request_thread) : Search initiated for keyword: iphone12
+2024-05-25 23:50:04,797 INFO aapp1 Thread-6 (process_request_thread) : Connected to MongoDB
+2024-05-25 23:50:05,197 INFO aapp1 Thread-6 (process_request_thread) : Fetched and parsed Flipkart search page
+2024-05-25 23:50:05,209 INFO aapp1 Thread-6 (process_request_thread) : Extracted product links
+2024-05-25 23:50:05,209 INFO aapp1 Thread-6 (process_request_thread) : Product link constructed: https://www.flipkart.com/apple-iphone-12-blue-64-gb/p/itm5778ad0d0d255?pid=MOBFWBYZ8DNJNY7N&lid=LSTMOBFWBYZ8DNJNY7NMWAWOJ&marketplace=FLIPKART&q=iphone12&store=tyy%2F4io&srno=s_1_3&otracker=search&fm=organic&iid=c22e187b-c67d-400b-aa1f-43e1cf93530b.MOBFWBYZ8DNJNY7N.SEARCH&ppt=None&ppn=None&ssid=0uk95uwla80000001716706192781&qH=ad588135f239b88b
+2024-05-25 23:50:05,758 INFO aapp1 Thread-6 (process_request_thread) : Fetched and parsed product details page
+2024-05-25 23:50:05,767 INFO aapp1 Thread-6 (process_request_thread) : Last link extracted: /apple-iphone-12-blue-64-gb/product-reviews/itm5778ad0d0d255?pid=MOBFWBYZ8DNJNY7N&lid=LSTMOBFWBYZ8DNJNY7NMWAWOJ&marketplace=FLIPKART
+2024-05-25 23:50:05,767 INFO aapp1 Thread-6 (process_request_thread) : Full product link constructed: https://www.flipkart.com/apple-iphone-12-blue-64-gb/product-reviews/itm5778ad0d0d255?pid=MOBFWBYZ8DNJNY7N&lid=LSTMOBFWBYZ8DNJNY7NMWAWOJ&marketplace=FLIPKART
+2024-05-25 23:50:06,358 INFO aapp1 Thread-6 (process_request_thread) : Fetched and parsed final product details page
+2024-05-25 23:50:06,360 INFO aapp1 Thread-6 (process_request_thread) : Collected results from comment boxes
+2024-05-25 23:50:06,578 INFO aapp1 Thread-6 (process_request_thread) : Inserted results into MongoDB
+2024-05-25 23:50:06,588 INFO aapp1 Thread-6 (process_request_thread) : Wrote results to CSV file: iphone12_reviews.csv
+2024-05-25 23:50:06,600 INFO werkzeug Thread-6 (process_request_thread) : 192.168.1.106 - - [25/May/2024 23:50:06] "POST /search HTTP/1.1" 200 -
+2024-05-25 23:50:38,253 INFO aapp1 Thread-8 (process_request_thread) : Rendering index page
+2024-05-25 23:50:38,254 INFO werkzeug Thread-8 (process_request_thread) : 192.168.1.100 - - [25/May/2024 23:50:38] "GET / HTTP/1.1" 200 -
+2024-05-25 23:50:38,432 INFO werkzeug Thread-9 (process_request_thread) : 192.168.1.100 - - [25/May/2024 23:50:38] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-05-25 23:50:48,923 INFO aapp1 Thread-10 (process_request_thread) : Search initiated for keyword: iphone12
+2024-05-25 23:50:49,034 INFO aapp1 Thread-10 (process_request_thread) : Connected to MongoDB
+2024-05-25 23:50:49,566 INFO aapp1 Thread-10 (process_request_thread) : Fetched and parsed Flipkart search page
+2024-05-25 23:50:49,578 INFO aapp1 Thread-10 (process_request_thread) : Extracted product links
+2024-05-25 23:50:49,578 INFO aapp1 Thread-10 (process_request_thread) : Product link constructed: https://www.flipkart.com/apple-iphone-12-blue-64-gb/p/itm5778ad0d0d255?pid=MOBFWBYZ8DNJNY7N&lid=LSTMOBFWBYZ8DNJNY7NMWAWOJ&marketplace=FLIPKART&q=iphone12&store=tyy%2F4io&srno=s_1_3&otracker=search&fm=organic&iid=6194da1c-3e33-4fe4-95b8-c8fdfcc51db7.MOBFWBYZ8DNJNY7N.SEARCH&ppt=None&ppn=None&ssid=gmvta6i6k00000001716706237125&qH=ad588135f239b88b
+2024-05-25 23:50:50,347 INFO aapp1 Thread-10 (process_request_thread) : Fetched and parsed product details page
+2024-05-25 23:50:50,356 INFO aapp1 Thread-10 (process_request_thread) : Last link extracted: /apple-iphone-12-blue-64-gb/product-reviews/itm5778ad0d0d255?pid=MOBFWBYZ8DNJNY7N&lid=LSTMOBFWBYZ8DNJNY7NMWAWOJ&marketplace=FLIPKART
+2024-05-25 23:50:50,356 INFO aapp1 Thread-10 (process_request_thread) : Full product link constructed: https://www.flipkart.com/apple-iphone-12-blue-64-gb/product-reviews/itm5778ad0d0d255?pid=MOBFWBYZ8DNJNY7N&lid=LSTMOBFWBYZ8DNJNY7NMWAWOJ&marketplace=FLIPKART
+2024-05-25 23:50:50,775 INFO aapp1 Thread-10 (process_request_thread) : Fetched and parsed final product details page
+2024-05-25 23:50:50,778 INFO aapp1 Thread-10 (process_request_thread) : Collected results from comment boxes
+2024-05-25 23:50:50,963 INFO aapp1 Thread-10 (process_request_thread) : Inserted results into MongoDB
+2024-05-25 23:50:50,964 INFO aapp1 Thread-10 (process_request_thread) : Wrote results to CSV file: iphone12_reviews.csv
+2024-05-25 23:50:50,965 INFO werkzeug Thread-10 (process_request_thread) : 192.168.1.100 - - [25/May/2024 23:50:50] "POST /search HTTP/1.1" 200 -
+2024-05-25 23:52:53,827 INFO werkzeug MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://192.168.1.106:5000
+2024-05-25 23:52:53,829 INFO werkzeug MainThread : [33mPress CTRL+C to quit[0m
+2024-05-25 23:52:53,833 INFO werkzeug MainThread :  * Restarting with stat
+2024-05-25 23:52:54,387 WARNING werkzeug MainThread :  * Debugger is active!
+2024-05-25 23:52:54,391 INFO werkzeug MainThread :  * Debugger PIN: 685-773-196
+2024-05-25 23:53:12,785 INFO app Thread-2 (process_request_thread) : Rendering index page
+2024-05-25 23:53:12,788 INFO werkzeug Thread-2 (process_request_thread) : 192.168.1.100 - - [25/May/2024 23:53:12] "GET / HTTP/1.1" 200 -
+2024-05-25 23:53:16,705 INFO app Thread-3 (process_request_thread) : Search initiated for keyword: iphone12
+2024-05-25 23:53:16,950 INFO app Thread-3 (process_request_thread) : Connected to MongoDB
+2024-05-25 23:53:17,543 INFO app Thread-3 (process_request_thread) : Fetched and parsed Flipkart search page
+2024-05-25 23:53:17,555 INFO app Thread-3 (process_request_thread) : Extracted product links
+2024-05-25 23:53:17,555 INFO app Thread-3 (process_request_thread) : Product link constructed: https://www.flipkart.com/apple-iphone-12-blue-64-gb/p/itm5778ad0d0d255?pid=MOBFWBYZ8DNJNY7N&lid=LSTMOBFWBYZ8DNJNY7NMWAWOJ&marketplace=FLIPKART&q=iphone12&store=tyy%2F4io&srno=s_1_3&otracker=search&fm=organic&iid=ca3428e7-9505-42c6-8ccb-92efffc813b1.MOBFWBYZ8DNJNY7N.SEARCH&ppt=None&ppn=None&ssid=sq37zqay9s0000001716706385077&qH=ad588135f239b88b
+2024-05-25 23:53:18,406 INFO app Thread-3 (process_request_thread) : Fetched and parsed product details page
+2024-05-25 23:53:18,411 INFO app Thread-3 (process_request_thread) : Last link extracted: None
+2024-05-25 23:53:18,411 INFO app Thread-3 (process_request_thread) : Full product link constructed: https://www.flipkart.comNone
+2024-05-25 23:53:18,957 ERROR app Thread-3 (process_request_thread) : An error occurred: <urlopen error [Errno 11001] getaddrinfo failed>
+Traceback (most recent call last):
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\urllib\request.py", line 1348, in do_open
+    h.request(req.get_method(), req.selector, req.data, headers,
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\http\client.py", line 1303, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\http\client.py", line 1349, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\http\client.py", line 1298, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\http\client.py", line 1058, in _send_output
+    self.send(msg)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\http\client.py", line 996, in send
+    self.connect()
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\http\client.py", line 1468, in connect
+    super().connect()
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\http\client.py", line 962, in connect
+    self.sock = self._create_connection(
+                ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\socket.py", line 827, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\socket.py", line 962, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\admin\PycharmProjects\pythonProject2\app.py", line 89, in search
+    product_req = urlopen(product_link)
+                  ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\urllib\request.py", line 216, in urlopen
+    return opener.open(url, data, timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\urllib\request.py", line 519, in open
+    response = self._open(req, data)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\urllib\request.py", line 536, in _open
+    result = self._call_chain(self.handle_open, protocol, protocol +
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\urllib\request.py", line 496, in _call_chain
+    result = func(*args)
+             ^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\urllib\request.py", line 1391, in https_open
+    return self.do_open(http.client.HTTPSConnection, req,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\urllib\request.py", line 1351, in do_open
+    raise URLError(err)
+urllib.error.URLError: <urlopen error [Errno 11001] getaddrinfo failed>
+2024-05-25 23:53:18,973 INFO werkzeug Thread-3 (process_request_thread) : 192.168.1.100 - - [25/May/2024 23:53:18] "POST /search HTTP/1.1" 200 -
+2024-05-25 23:53:21,444 INFO app Thread-4 (process_request_thread) : Search initiated for keyword: iphone12
+2024-05-25 23:53:21,556 INFO app Thread-4 (process_request_thread) : Connected to MongoDB
+2024-05-25 23:53:22,097 INFO app Thread-4 (process_request_thread) : Fetched and parsed Flipkart search page
+2024-05-25 23:53:22,109 INFO app Thread-4 (process_request_thread) : Extracted product links
+2024-05-25 23:53:22,110 INFO app Thread-4 (process_request_thread) : Product link constructed: https://www.flipkart.com/apple-iphone-12-blue-64-gb/p/itm5778ad0d0d255?pid=MOBFWBYZ8DNJNY7N&lid=LSTMOBFWBYZ8DNJNY7NMWAWOJ&marketplace=FLIPKART&q=iphone12&store=tyy%2F4io&srno=s_1_3&otracker=search&fm=organic&iid=d6d053ba-ce73-416b-a079-49a8a7750f62.MOBFWBYZ8DNJNY7N.SEARCH&ppt=None&ppn=None&ssid=bzamy9mz400000001716706389633&qH=ad588135f239b88b
+2024-05-25 23:53:22,784 INFO app Thread-4 (process_request_thread) : Fetched and parsed product details page
+2024-05-25 23:53:22,792 INFO app Thread-4 (process_request_thread) : Last link extracted: /apple-iphone-12-blue-64-gb/product-reviews/itm5778ad0d0d255?pid=MOBFWBYZ8DNJNY7N&lid=LSTMOBFWBYZ8DNJNY7NMWAWOJ&marketplace=FLIPKART
+2024-05-25 23:53:22,792 INFO app Thread-4 (process_request_thread) : Full product link constructed: https://www.flipkart.com/apple-iphone-12-blue-64-gb/product-reviews/itm5778ad0d0d255?pid=MOBFWBYZ8DNJNY7N&lid=LSTMOBFWBYZ8DNJNY7NMWAWOJ&marketplace=FLIPKART
+2024-05-25 23:53:23,239 INFO app Thread-4 (process_request_thread) : Fetched and parsed final product details page
+2024-05-25 23:53:23,241 INFO app Thread-4 (process_request_thread) : Collected results from comment boxes
+2024-05-25 23:53:23,461 INFO app Thread-4 (process_request_thread) : Inserted results into MongoDB
+2024-05-25 23:53:23,462 INFO app Thread-4 (process_request_thread) : Wrote results to CSV file: iphone12_reviews.csv
+2024-05-25 23:53:23,466 INFO werkzeug Thread-4 (process_request_thread) : 192.168.1.100 - - [25/May/2024 23:53:23] "POST /search HTTP/1.1" 200 -
+2024-05-25 23:58:18,940 INFO werkzeug MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://192.168.1.106:5000
+2024-05-25 23:58:18,940 INFO werkzeug MainThread : [33mPress CTRL+C to quit[0m
+2024-05-25 23:58:18,943 INFO werkzeug MainThread :  * Restarting with stat
+2024-05-25 23:58:19,499 WARNING werkzeug MainThread :  * Debugger is active!
+2024-05-25 23:58:19,502 INFO werkzeug MainThread :  * Debugger PIN: 685-773-196
+2024-05-25 23:58:40,357 INFO aapp1 Thread-2 (process_request_thread) : Rendering index page
+2024-05-25 23:58:40,361 INFO werkzeug Thread-2 (process_request_thread) : 192.168.1.100 - - [25/May/2024 23:58:40] "GET / HTTP/1.1" 200 -
+2024-05-25 23:58:43,703 INFO aapp1 Thread-3 (process_request_thread) : Search initiated for keyword: iphone12
+2024-05-25 23:58:43,895 INFO aapp1 Thread-3 (process_request_thread) : Connected to MongoDB
+2024-05-25 23:58:44,498 INFO aapp1 Thread-3 (process_request_thread) : Fetched and parsed Flipkart search page
+2024-05-25 23:58:44,511 INFO aapp1 Thread-3 (process_request_thread) : Extracted product links
+2024-05-25 23:58:44,511 INFO aapp1 Thread-3 (process_request_thread) : Product link constructed: https://www.flipkart.com/apple-iphone-12-blue-64-gb/p/itm5778ad0d0d255?pid=MOBFWBYZ8DNJNY7N&lid=LSTMOBFWBYZ8DNJNY7NMWAWOJ&marketplace=FLIPKART&q=iphone12&store=tyy%2F4io&srno=s_1_3&otracker=search&fm=organic&iid=212137a9-10c7-4fab-9208-0ac760502117.MOBFWBYZ8DNJNY7N.SEARCH&ppt=None&ppn=None&ssid=0kz6x8ivuo0000001716706712061&qH=ad588135f239b88b
+2024-05-25 23:58:44,594 ERROR aapp1 Thread-3 (process_request_thread) : An error occurred: HTTP Error 429: Too Many Requests
+Traceback (most recent call last):
+  File "C:\Users\admin\PycharmProjects\pythonProject2\aapp1.py", line 68, in search
+    url_open1 = urlopen(product_link)
+                ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\urllib\request.py", line 216, in urlopen
+    return opener.open(url, data, timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\urllib\request.py", line 525, in open
+    response = meth(req, response)
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\urllib\request.py", line 634, in http_response
+    response = self.parent.error(
+               ^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\urllib\request.py", line 563, in error
+    return self._call_chain(*args)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\urllib\request.py", line 496, in _call_chain
+    result = func(*args)
+             ^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\urllib\request.py", line 643, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 429: Too Many Requests
+2024-05-25 23:58:44,597 INFO werkzeug Thread-3 (process_request_thread) : 192.168.1.100 - - [25/May/2024 23:58:44] "POST /search HTTP/1.1" 200 -
+2024-05-25 23:58:47,462 INFO aapp1 Thread-4 (process_request_thread) : Search initiated for keyword: iphone12
+2024-05-25 23:58:47,569 INFO aapp1 Thread-4 (process_request_thread) : Connected to MongoDB
+2024-05-25 23:58:47,993 INFO aapp1 Thread-4 (process_request_thread) : Fetched and parsed Flipkart search page
+2024-05-25 23:58:48,005 INFO aapp1 Thread-4 (process_request_thread) : Extracted product links
+2024-05-25 23:58:48,005 INFO aapp1 Thread-4 (process_request_thread) : Product link constructed: https://www.flipkart.com/apple-iphone-12-blue-64-gb/p/itm5778ad0d0d255?pid=MOBFWBYZ8DNJNY7N&lid=LSTMOBFWBYZ8DNJNY7NMWAWOJ&marketplace=FLIPKART&q=iphone12&store=tyy%2F4io&srno=s_1_3&otracker=search&fm=organic&iid=78c834b3-eada-403f-b58d-90b2e7a4e024.MOBFWBYZ8DNJNY7N.SEARCH&ppt=None&ppn=None&ssid=5cjxgfky280000001716706715568&qH=ad588135f239b88b
+2024-05-25 23:58:48,735 INFO aapp1 Thread-4 (process_request_thread) : Fetched and parsed product details page
+2024-05-25 23:58:48,745 INFO aapp1 Thread-4 (process_request_thread) : Last link extracted: /apple-iphone-12-blue-64-gb/product-reviews/itm5778ad0d0d255?pid=MOBFWBYZ8DNJNY7N&lid=LSTMOBFWBYZ8DNJNY7NMWAWOJ&marketplace=FLIPKART
+2024-05-25 23:58:48,745 INFO aapp1 Thread-4 (process_request_thread) : Full product link constructed: https://www.flipkart.com/apple-iphone-12-blue-64-gb/product-reviews/itm5778ad0d0d255?pid=MOBFWBYZ8DNJNY7N&lid=LSTMOBFWBYZ8DNJNY7NMWAWOJ&marketplace=FLIPKART
+2024-05-25 23:58:49,100 INFO aapp1 Thread-4 (process_request_thread) : Fetched and parsed final product details page
+2024-05-25 23:58:49,103 INFO aapp1 Thread-4 (process_request_thread) : Collected results from comment boxes
+2024-05-25 23:58:50,648 INFO aapp1 Thread-4 (process_request_thread) : Inserted results into MongoDB
+2024-05-25 23:58:50,649 INFO aapp1 Thread-4 (process_request_thread) : Wrote results to CSV file: iphone12_reviews.csv
+2024-05-25 23:58:50,652 INFO werkzeug Thread-4 (process_request_thread) : 192.168.1.100 - - [25/May/2024 23:58:50] "POST /search HTTP/1.1" 200 -
+2024-05-26 00:00:26,347 INFO aapp1 Thread-6 (process_request_thread) : Rendering index page
+2024-05-26 00:00:26,348 INFO werkzeug Thread-6 (process_request_thread) : 192.168.1.100 - - [26/May/2024 00:00:26] "GET / HTTP/1.1" 200 -
+2024-05-26 00:00:30,800 INFO aapp1 Thread-7 (process_request_thread) : Rendering index page
+2024-05-26 00:00:30,801 INFO werkzeug Thread-7 (process_request_thread) : 192.168.1.100 - - [26/May/2024 00:00:30] "GET / HTTP/1.1" 200 -
+2024-05-26 00:00:33,636 INFO aapp1 Thread-8 (process_request_thread) : Search initiated for keyword: iphone12
+2024-05-26 00:00:33,749 INFO aapp1 Thread-8 (process_request_thread) : Connected to MongoDB
+2024-05-26 00:00:34,416 INFO aapp1 Thread-8 (process_request_thread) : Fetched and parsed Flipkart search page
+2024-05-26 00:00:34,428 INFO aapp1 Thread-8 (process_request_thread) : Extracted product links
+2024-05-26 00:00:34,428 INFO aapp1 Thread-8 (process_request_thread) : Product link constructed: https://www.flipkart.com/apple-iphone-12-blue-64-gb/p/itm5778ad0d0d255?pid=MOBFWBYZ8DNJNY7N&lid=LSTMOBFWBYZ8DNJNY7NMWAWOJ&marketplace=FLIPKART&q=iphone12&store=tyy%2F4io&srno=s_1_3&otracker=search&fm=organic&iid=a84e4ec6-6344-4dec-98d9-ac003040f9d5.MOBFWBYZ8DNJNY7N.SEARCH&ppt=None&ppn=None&ssid=2e9tf68zao0000001716706821939&qH=ad588135f239b88b
+2024-05-26 00:00:35,071 INFO aapp1 Thread-8 (process_request_thread) : Fetched and parsed product details page
+2024-05-26 00:00:35,079 INFO aapp1 Thread-8 (process_request_thread) : Last link extracted: /apple-iphone-12-blue-64-gb/product-reviews/itm5778ad0d0d255?pid=MOBFWBYZ8DNJNY7N&lid=LSTMOBFWBYZ8DNJNY7NMWAWOJ&marketplace=FLIPKART
+2024-05-26 00:00:35,079 INFO aapp1 Thread-8 (process_request_thread) : Full product link constructed: https://www.flipkart.com/apple-iphone-12-blue-64-gb/product-reviews/itm5778ad0d0d255?pid=MOBFWBYZ8DNJNY7N&lid=LSTMOBFWBYZ8DNJNY7NMWAWOJ&marketplace=FLIPKART
+2024-05-26 00:00:35,566 INFO aapp1 Thread-8 (process_request_thread) : Fetched and parsed final product details page
+2024-05-26 00:00:35,569 INFO aapp1 Thread-8 (process_request_thread) : Collected results from comment boxes
+2024-05-26 00:00:35,756 INFO aapp1 Thread-8 (process_request_thread) : Inserted results into MongoDB
+2024-05-26 00:00:35,757 INFO aapp1 Thread-8 (process_request_thread) : Wrote results to CSV file: iphone12_reviews.csv
+2024-05-26 00:00:35,758 INFO werkzeug Thread-8 (process_request_thread) : 192.168.1.100 - - [26/May/2024 00:00:35] "POST /search HTTP/1.1" 200 -
+2024-05-26 00:04:39,489 INFO aapp1 Thread-10 (process_request_thread) : Rendering index page
+2024-05-26 00:04:39,489 INFO werkzeug Thread-10 (process_request_thread) : 192.168.1.100 - - [26/May/2024 00:04:39] "GET / HTTP/1.1" 200 -
+2024-05-26 00:04:49,476 INFO aapp1 Thread-11 (process_request_thread) : Search initiated for keyword: iphone12
+2024-05-26 00:04:49,600 INFO aapp1 Thread-11 (process_request_thread) : Connected to MongoDB
+2024-05-26 00:04:50,050 INFO aapp1 Thread-11 (process_request_thread) : Fetched and parsed Flipkart search page
+2024-05-26 00:04:50,061 INFO aapp1 Thread-11 (process_request_thread) : Extracted product links
+2024-05-26 00:04:50,061 INFO aapp1 Thread-11 (process_request_thread) : Product link constructed: https://www.flipkart.com/apple-iphone-12-blue-64-gb/p/itm5778ad0d0d255?pid=MOBFWBYZ8DNJNY7N&lid=LSTMOBFWBYZ8DNJNY7NMWAWOJ&marketplace=FLIPKART&q=iphone12&store=tyy%2F4io&srno=s_1_3&otracker=search&fm=organic&iid=ef4e2717-a6c0-48e7-8676-ed22eb555155.MOBFWBYZ8DNJNY7N.SEARCH&ppt=None&ppn=None&ssid=e2k7sftnnk0000001716707077616&qH=ad588135f239b88b
+2024-05-26 00:04:51,290 INFO aapp1 Thread-11 (process_request_thread) : Fetched and parsed product details page
+2024-05-26 00:04:51,297 INFO aapp1 Thread-11 (process_request_thread) : Last link extracted: /apple-iphone-12-blue-64-gb/product-reviews/itm5778ad0d0d255?pid=MOBFWBYZ8DNJNY7N&lid=LSTMOBFWBYZ8DNJNY7NMWAWOJ&marketplace=FLIPKART
+2024-05-26 00:04:51,298 INFO aapp1 Thread-11 (process_request_thread) : Full product link constructed: https://www.flipkart.com/apple-iphone-12-blue-64-gb/product-reviews/itm5778ad0d0d255?pid=MOBFWBYZ8DNJNY7N&lid=LSTMOBFWBYZ8DNJNY7NMWAWOJ&marketplace=FLIPKART
+2024-05-26 00:04:51,807 INFO aapp1 Thread-11 (process_request_thread) : Fetched and parsed final product details page
+2024-05-26 00:04:51,809 INFO aapp1 Thread-11 (process_request_thread) : Collected results from comment boxes
+2024-05-26 00:04:52,000 INFO aapp1 Thread-11 (process_request_thread) : Inserted results into MongoDB
+2024-05-26 00:04:52,001 INFO aapp1 Thread-11 (process_request_thread) : Wrote results to CSV file: iphone12_reviews.csv
+2024-05-26 00:04:52,002 INFO werkzeug Thread-11 (process_request_thread) : 192.168.1.100 - - [26/May/2024 00:04:52] "POST /search HTTP/1.1" 200 -
+2024-05-26 00:04:59,653 INFO aapp1 Thread-12 (process_request_thread) : Rendering index page
+2024-05-26 00:04:59,654 INFO werkzeug Thread-12 (process_request_thread) : 192.168.1.100 - - [26/May/2024 00:04:59] "GET / HTTP/1.1" 200 -
+2024-05-26 00:07:24,667 INFO aapp1 Thread-15 (process_request_thread) : Rendering index page
+2024-05-26 00:07:24,668 INFO werkzeug Thread-15 (process_request_thread) : 192.168.1.100 - - [26/May/2024 00:07:24] "GET / HTTP/1.1" 200 -
+2024-05-26 00:07:40,135 INFO aapp1 Thread-16 (process_request_thread) : Rendering index page
+2024-05-26 00:07:40,136 INFO werkzeug Thread-16 (process_request_thread) : 192.168.1.100 - - [26/May/2024 00:07:40] "GET / HTTP/1.1" 200 -
+2024-05-26 00:15:50,368 INFO aapp1 Thread-18 (process_request_thread) : Rendering index page
+2024-05-26 00:15:50,369 INFO werkzeug Thread-18 (process_request_thread) : 192.168.1.100 - - [26/May/2024 00:15:50] "GET / HTTP/1.1" 200 -
+2024-05-26 00:16:15,881 INFO aapp1 Thread-19 (process_request_thread) : Search initiated for keyword: iphone12
+2024-05-26 00:16:15,998 INFO aapp1 Thread-19 (process_request_thread) : Connected to MongoDB
+2024-05-26 00:16:16,890 INFO aapp1 Thread-19 (process_request_thread) : Fetched and parsed Flipkart search page
+2024-05-26 00:16:16,903 INFO aapp1 Thread-19 (process_request_thread) : Extracted product links
+2024-05-26 00:16:16,904 INFO aapp1 Thread-19 (process_request_thread) : Product link constructed: https://www.flipkart.com/apple-iphone-12-blue-64-gb/p/itm5778ad0d0d255?pid=MOBFWBYZ8DNJNY7N&lid=LSTMOBFWBYZ8DNJNY7NMWAWOJ&marketplace=FLIPKART&q=iphone12&store=tyy%2F4io&srno=s_1_3&otracker=search&fm=organic&iid=e5e86484-6d2f-40e7-a323-1a19db58fc2a.MOBFWBYZ8DNJNY7N.SEARCH&ppt=None&ppn=None&ssid=w7p8ivrvrk0000001716707764256&qH=ad588135f239b88b
+2024-05-26 00:16:17,514 INFO aapp1 Thread-19 (process_request_thread) : Fetched and parsed product details page
+2024-05-26 00:16:17,522 INFO aapp1 Thread-19 (process_request_thread) : Last link extracted: /apple-iphone-12-blue-64-gb/product-reviews/itm5778ad0d0d255?pid=MOBFWBYZ8DNJNY7N&lid=LSTMOBFWBYZ8DNJNY7NMWAWOJ&marketplace=FLIPKART
+2024-05-26 00:16:17,522 INFO aapp1 Thread-19 (process_request_thread) : Full product link constructed: https://www.flipkart.com/apple-iphone-12-blue-64-gb/product-reviews/itm5778ad0d0d255?pid=MOBFWBYZ8DNJNY7N&lid=LSTMOBFWBYZ8DNJNY7NMWAWOJ&marketplace=FLIPKART
+2024-05-26 00:16:18,173 INFO aapp1 Thread-19 (process_request_thread) : Fetched and parsed final product details page
+2024-05-26 00:16:18,175 INFO aapp1 Thread-19 (process_request_thread) : Collected results from comment boxes
+2024-05-26 00:16:18,369 INFO aapp1 Thread-19 (process_request_thread) : Inserted results into MongoDB
+2024-05-26 00:16:18,371 INFO aapp1 Thread-19 (process_request_thread) : Wrote results to CSV file: iphone12_reviews.csv
+2024-05-26 00:16:18,372 INFO werkzeug Thread-19 (process_request_thread) : 192.168.1.100 - - [26/May/2024 00:16:18] "POST /search HTTP/1.1" 200 -
+2024-05-26 00:16:36,370 INFO aapp1 Thread-20 (process_request_thread) : Search initiated for keyword: Redmi
+2024-05-26 00:16:36,484 INFO aapp1 Thread-20 (process_request_thread) : Connected to MongoDB
+2024-05-26 00:16:37,021 INFO aapp1 Thread-20 (process_request_thread) : Fetched and parsed Flipkart search page
+2024-05-26 00:16:37,033 INFO aapp1 Thread-20 (process_request_thread) : Extracted product links
+2024-05-26 00:16:37,034 INFO aapp1 Thread-20 (process_request_thread) : Product link constructed: https://www.flipkart.com/redmi-12-5g-jade-black-128-gb/p/itma9b37bec7de7e?pid=MOBGS7GYGUAJ4UYZ&lid=LSTMOBGS7GYGUAJ4UYZOAPCWA&marketplace=FLIPKART&q=Redmi&store=tyy%2F4io&srno=s_1_3&otracker=search&fm=organic&iid=56c9109c-0e38-485c-866f-40fd181aacef.MOBGS7GYGUAJ4UYZ.SEARCH&ppt=None&ppn=None&ssid=hfpsiawbe80000001716707784565&qH=b1230963d85a5733
+2024-05-26 00:16:38,045 INFO aapp1 Thread-20 (process_request_thread) : Fetched and parsed product details page
+2024-05-26 00:16:38,052 INFO aapp1 Thread-20 (process_request_thread) : Last link extracted: /redmi-12-5g-jade-black-128-gb/product-reviews/itma9b37bec7de7e?pid=MOBGS7GYGUAJ4UYZ&lid=LSTMOBGS7GYGUAJ4UYZOAPCWA&marketplace=FLIPKART
+2024-05-26 00:16:38,052 INFO aapp1 Thread-20 (process_request_thread) : Full product link constructed: https://www.flipkart.com/redmi-12-5g-jade-black-128-gb/product-reviews/itma9b37bec7de7e?pid=MOBGS7GYGUAJ4UYZ&lid=LSTMOBGS7GYGUAJ4UYZOAPCWA&marketplace=FLIPKART
+2024-05-26 00:16:38,246 ERROR aapp1 Thread-20 (process_request_thread) : An error occurred: HTTP Error 429: Too Many Requests
+Traceback (most recent call last):
+  File "C:\Users\admin\PycharmProjects\pythonProject2\aapp1.py", line 89, in search
+    product_req = urlopen(product_link)
+                  ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\urllib\request.py", line 216, in urlopen
+    return opener.open(url, data, timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\urllib\request.py", line 525, in open
+    response = meth(req, response)
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\urllib\request.py", line 634, in http_response
+    response = self.parent.error(
+               ^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\urllib\request.py", line 563, in error
+    return self._call_chain(*args)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\urllib\request.py", line 496, in _call_chain
+    result = func(*args)
+             ^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\urllib\request.py", line 643, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 429: Too Many Requests
+2024-05-26 00:16:38,248 INFO werkzeug Thread-20 (process_request_thread) : 192.168.1.100 - - [26/May/2024 00:16:38] "POST /search HTTP/1.1" 200 -
+2024-05-26 00:16:40,213 INFO aapp1 Thread-21 (process_request_thread) : Search initiated for keyword: Redmi
+2024-05-26 00:16:40,346 INFO aapp1 Thread-21 (process_request_thread) : Connected to MongoDB
+2024-05-26 00:16:41,149 INFO aapp1 Thread-21 (process_request_thread) : Fetched and parsed Flipkart search page
+2024-05-26 00:16:41,161 INFO aapp1 Thread-21 (process_request_thread) : Extracted product links
+2024-05-26 00:16:41,161 INFO aapp1 Thread-21 (process_request_thread) : Product link constructed: https://www.flipkart.com/redmi-12-5g-jade-black-128-gb/p/itma9b37bec7de7e?pid=MOBGS7GYGUAJ4UYZ&lid=LSTMOBGS7GYGUAJ4UYZOAPCWA&marketplace=FLIPKART&q=Redmi&store=tyy%2F4io&srno=s_1_3&otracker=search&fm=organic&iid=5f4f01cd-bf70-4ff2-9af0-ac34850ae545.MOBGS7GYGUAJ4UYZ.SEARCH&ppt=None&ppn=None&ssid=bzpullapio0000001716707788547&qH=b1230963d85a5733
+2024-05-26 00:16:42,561 INFO aapp1 Thread-21 (process_request_thread) : Fetched and parsed product details page
+2024-05-26 00:16:42,569 INFO aapp1 Thread-21 (process_request_thread) : Last link extracted: /redmi-12-5g-jade-black-128-gb/product-reviews/itma9b37bec7de7e?pid=MOBGS7GYGUAJ4UYZ&lid=LSTMOBGS7GYGUAJ4UYZOAPCWA&marketplace=FLIPKART
+2024-05-26 00:16:42,569 INFO aapp1 Thread-21 (process_request_thread) : Full product link constructed: https://www.flipkart.com/redmi-12-5g-jade-black-128-gb/product-reviews/itma9b37bec7de7e?pid=MOBGS7GYGUAJ4UYZ&lid=LSTMOBGS7GYGUAJ4UYZOAPCWA&marketplace=FLIPKART
+2024-05-26 00:16:42,849 ERROR aapp1 Thread-21 (process_request_thread) : An error occurred: HTTP Error 429: Too Many Requests
+Traceback (most recent call last):
+  File "C:\Users\admin\PycharmProjects\pythonProject2\aapp1.py", line 89, in search
+    product_req = urlopen(product_link)
+                  ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\urllib\request.py", line 216, in urlopen
+    return opener.open(url, data, timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\urllib\request.py", line 525, in open
+    response = meth(req, response)
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\urllib\request.py", line 634, in http_response
+    response = self.parent.error(
+               ^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\urllib\request.py", line 563, in error
+    return self._call_chain(*args)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\urllib\request.py", line 496, in _call_chain
+    result = func(*args)
+             ^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\urllib\request.py", line 643, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 429: Too Many Requests
+2024-05-26 00:16:42,851 INFO werkzeug Thread-21 (process_request_thread) : 192.168.1.100 - - [26/May/2024 00:16:42] "POST /search HTTP/1.1" 200 -
+2024-05-26 00:16:45,107 INFO aapp1 Thread-22 (process_request_thread) : Search initiated for keyword: Redmi
+2024-05-26 00:16:45,227 INFO aapp1 Thread-22 (process_request_thread) : Connected to MongoDB
+2024-05-26 00:16:45,776 INFO aapp1 Thread-22 (process_request_thread) : Fetched and parsed Flipkart search page
+2024-05-26 00:16:45,788 INFO aapp1 Thread-22 (process_request_thread) : Extracted product links
+2024-05-26 00:16:45,788 INFO aapp1 Thread-22 (process_request_thread) : Product link constructed: https://www.flipkart.com/redmi-12-5g-jade-black-128-gb/p/itma9b37bec7de7e?pid=MOBGS7GYGUAJ4UYZ&lid=LSTMOBGS7GYGUAJ4UYZOAPCWA&marketplace=FLIPKART&q=Redmi&store=tyy%2F4io&srno=s_1_3&otracker=search&fm=organic&iid=3ca1c4d2-419a-489b-bace-dd17190d039f.MOBGS7GYGUAJ4UYZ.SEARCH&ppt=None&ppn=None&ssid=26u82l2avk0000001716707793321&qH=b1230963d85a5733
+2024-05-26 00:16:46,483 INFO aapp1 Thread-22 (process_request_thread) : Fetched and parsed product details page
+2024-05-26 00:16:46,492 INFO aapp1 Thread-22 (process_request_thread) : Last link extracted: /redmi-12-5g-jade-black-128-gb/product-reviews/itma9b37bec7de7e?pid=MOBGS7GYGUAJ4UYZ&lid=LSTMOBGS7GYGUAJ4UYZOAPCWA&marketplace=FLIPKART
+2024-05-26 00:16:46,492 INFO aapp1 Thread-22 (process_request_thread) : Full product link constructed: https://www.flipkart.com/redmi-12-5g-jade-black-128-gb/product-reviews/itma9b37bec7de7e?pid=MOBGS7GYGUAJ4UYZ&lid=LSTMOBGS7GYGUAJ4UYZOAPCWA&marketplace=FLIPKART
+2024-05-26 00:16:48,038 INFO aapp1 Thread-22 (process_request_thread) : Fetched and parsed final product details page
+2024-05-26 00:16:48,041 INFO aapp1 Thread-22 (process_request_thread) : Collected results from comment boxes
+2024-05-26 00:16:48,244 INFO aapp1 Thread-22 (process_request_thread) : Inserted results into MongoDB
+2024-05-26 00:16:48,245 INFO aapp1 Thread-22 (process_request_thread) : Wrote results to CSV file: Redmi_reviews.csv
+2024-05-26 00:16:48,246 INFO werkzeug Thread-22 (process_request_thread) : 192.168.1.100 - - [26/May/2024 00:16:48] "POST /search HTTP/1.1" 200 -
+2024-05-26 00:17:13,067 INFO aapp1 Thread-24 (process_request_thread) : Rendering index page
+2024-05-26 00:17:13,067 INFO werkzeug Thread-24 (process_request_thread) : 192.168.1.106 - - [26/May/2024 00:17:13] "GET / HTTP/1.1" 200 -
+2024-05-26 00:17:21,142 INFO aapp1 Thread-27 (process_request_thread) : Search initiated for keyword: iphone14pro
+2024-05-26 00:17:21,259 INFO aapp1 Thread-27 (process_request_thread) : Connected to MongoDB
+2024-05-26 00:17:21,578 ERROR aapp1 Thread-27 (process_request_thread) : An error occurred: HTTP Error 429: Too Many Requests
+Traceback (most recent call last):
+  File "C:\Users\admin\PycharmProjects\pythonProject2\aapp1.py", line 33, in search
+    url_open = urlopen(flipkart_url)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\urllib\request.py", line 216, in urlopen
+    return opener.open(url, data, timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\urllib\request.py", line 525, in open
+    response = meth(req, response)
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\urllib\request.py", line 634, in http_response
+    response = self.parent.error(
+               ^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\urllib\request.py", line 563, in error
+    return self._call_chain(*args)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\urllib\request.py", line 496, in _call_chain
+    result = func(*args)
+             ^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\urllib\request.py", line 643, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 429: Too Many Requests
+2024-05-26 00:17:21,580 INFO werkzeug Thread-27 (process_request_thread) : 192.168.1.106 - - [26/May/2024 00:17:21] "POST /search HTTP/1.1" 200 -
+2024-05-26 00:17:25,515 INFO aapp1 Thread-29 (process_request_thread) : Search initiated for keyword: iphone14pro
+2024-05-26 00:17:25,635 INFO aapp1 Thread-29 (process_request_thread) : Connected to MongoDB
+2024-05-26 00:17:26,727 INFO aapp1 Thread-29 (process_request_thread) : Fetched and parsed Flipkart search page
+2024-05-26 00:17:26,745 INFO aapp1 Thread-29 (process_request_thread) : Extracted product links
+2024-05-26 00:17:26,745 INFO aapp1 Thread-29 (process_request_thread) : Product link constructed: https://www.flipkart.com/apple-iphone-14-pro-space-black-1-tb/p/itm753a220ef7086?pid=MOBGHWFHYNZZ7RBP&lid=LSTMOBGHWFHYNZZ7RBPLYLBZW&marketplace=FLIPKART&q=iphone14pro&store=tyy%2F4io&srno=s_1_3&otracker=search&fm=organic&iid=3f0e23cc-abe8-4ee0-8638-3af894197639.MOBGHWFHYNZZ7RBP.SEARCH&ppt=None&ppn=None&ssid=vbgaerr1ds0000001716707833800&qH=1b57eea67220f216
+2024-05-26 00:17:27,634 INFO aapp1 Thread-29 (process_request_thread) : Fetched and parsed product details page
+2024-05-26 00:17:27,640 INFO aapp1 Thread-29 (process_request_thread) : Last link extracted: /apple-iphone-14-pro-space-black-1-tb/product-reviews/itm753a220ef7086?pid=MOBGHWFHYNZZ7RBP&lid=LSTMOBGHWFHYNZZ7RBPLYLBZW&marketplace=FLIPKART
+2024-05-26 00:17:27,640 INFO aapp1 Thread-29 (process_request_thread) : Full product link constructed: https://www.flipkart.com/apple-iphone-14-pro-space-black-1-tb/product-reviews/itm753a220ef7086?pid=MOBGHWFHYNZZ7RBP&lid=LSTMOBGHWFHYNZZ7RBPLYLBZW&marketplace=FLIPKART
+2024-05-26 00:17:28,577 INFO aapp1 Thread-29 (process_request_thread) : Fetched and parsed final product details page
+2024-05-26 00:17:28,580 INFO aapp1 Thread-29 (process_request_thread) : Collected results from comment boxes
+2024-05-26 00:17:28,780 INFO aapp1 Thread-29 (process_request_thread) : Inserted results into MongoDB
+2024-05-26 00:17:28,780 INFO aapp1 Thread-29 (process_request_thread) : Wrote results to CSV file: iphone14pro_reviews.csv
+2024-05-26 00:17:28,780 INFO werkzeug Thread-29 (process_request_thread) : 192.168.1.106 - - [26/May/2024 00:17:28] "POST /search HTTP/1.1" 200 -
+2024-05-26 00:22:51,810 INFO werkzeug MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://192.168.1.106:5000
+2024-05-26 00:22:51,811 INFO werkzeug MainThread : [33mPress CTRL+C to quit[0m
+2024-05-26 00:22:51,815 INFO werkzeug MainThread :  * Restarting with stat
+2024-05-26 00:22:53,211 WARNING werkzeug MainThread :  * Debugger is active!
+2024-05-26 00:22:53,221 INFO werkzeug MainThread :  * Debugger PIN: 685-773-196
+2024-05-26 00:23:13,676 INFO aapp1 Thread-2 (process_request_thread) : Rendering index page
+2024-05-26 00:23:13,680 INFO werkzeug Thread-2 (process_request_thread) : 192.168.1.108 - - [26/May/2024 00:23:13] "GET / HTTP/1.1" 200 -
+2024-05-26 00:23:13,810 INFO werkzeug Thread-3 (process_request_thread) : 192.168.1.108 - - [26/May/2024 00:23:13] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-05-26 00:23:28,340 INFO aapp1 Thread-4 (process_request_thread) : Search initiated for keyword: Iphone12
+2024-05-26 00:23:28,607 INFO aapp1 Thread-4 (process_request_thread) : Connected to MongoDB
+2024-05-26 00:23:29,271 INFO aapp1 Thread-4 (process_request_thread) : Fetched and parsed Flipkart search page
+2024-05-26 00:23:29,283 INFO aapp1 Thread-4 (process_request_thread) : Extracted product links
+2024-05-26 00:23:29,283 INFO aapp1 Thread-4 (process_request_thread) : Product link constructed: https://www.flipkart.com/apple-iphone-12-blue-64-gb/p/itm5778ad0d0d255?pid=MOBFWBYZ8DNJNY7N&lid=LSTMOBFWBYZ8DNJNY7NMWAWOJ&marketplace=FLIPKART&q=Iphone12&store=tyy%2F4io&srno=s_1_3&otracker=search&fm=organic&iid=7365fdf9-6255-4c10-913b-355bd42a6304.MOBFWBYZ8DNJNY7N.SEARCH&ppt=None&ppn=None&ssid=wxjro59hsg0000001716708196780&qH=fe030fadacbafd61
+2024-05-26 00:23:29,895 INFO aapp1 Thread-4 (process_request_thread) : Fetched and parsed product details page
+2024-05-26 00:23:29,903 INFO aapp1 Thread-4 (process_request_thread) : Last link extracted: /apple-iphone-12-blue-64-gb/product-reviews/itm5778ad0d0d255?pid=MOBFWBYZ8DNJNY7N&lid=LSTMOBFWBYZ8DNJNY7NMWAWOJ&marketplace=FLIPKART
+2024-05-26 00:23:29,903 INFO aapp1 Thread-4 (process_request_thread) : Full product link constructed: https://www.flipkart.com/apple-iphone-12-blue-64-gb/product-reviews/itm5778ad0d0d255?pid=MOBFWBYZ8DNJNY7N&lid=LSTMOBFWBYZ8DNJNY7NMWAWOJ&marketplace=FLIPKART
+2024-05-26 00:23:30,333 INFO aapp1 Thread-4 (process_request_thread) : Fetched and parsed final product details page
+2024-05-26 00:23:30,335 INFO aapp1 Thread-4 (process_request_thread) : Collected results from comment boxes
+2024-05-26 00:23:30,532 INFO aapp1 Thread-4 (process_request_thread) : Inserted results into MongoDB
+2024-05-26 00:23:30,534 INFO aapp1 Thread-4 (process_request_thread) : Wrote results to CSV file: Iphone12_reviews.csv
+2024-05-26 00:23:30,539 INFO werkzeug Thread-4 (process_request_thread) : 192.168.1.108 - - [26/May/2024 00:23:30] "POST /search HTTP/1.1" 200 -
+2024-05-26 02:01:32,248 INFO werkzeug MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://192.168.80.164:5000
+2024-05-26 02:01:32,249 INFO werkzeug MainThread : [33mPress CTRL+C to quit[0m
+2024-05-26 02:01:32,259 INFO werkzeug MainThread :  * Restarting with stat
+2024-05-26 02:01:32,940 WARNING werkzeug MainThread :  * Debugger is active!
+2024-05-26 02:01:32,961 INFO werkzeug MainThread :  * Debugger PIN: 584-887-622
+2024-05-26 02:01:53,632 INFO aapp1 Thread-2 (process_request_thread) : Rendering index page
+2024-05-26 02:01:53,636 INFO werkzeug Thread-2 (process_request_thread) : 192.168.80.164 - - [26/May/2024 02:01:53] "GET / HTTP/1.1" 200 -
+2024-05-26 02:01:54,757 INFO werkzeug Thread-3 (process_request_thread) : 192.168.80.164 - - [26/May/2024 02:01:54] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-05-26 02:01:59,105 INFO aapp1 Thread-5 (process_request_thread) : Search initiated for keyword: iphone11
+2024-05-26 02:02:00,164 INFO aapp1 Thread-5 (process_request_thread) : Connected to MongoDB
+2024-05-26 02:02:00,916 INFO aapp1 Thread-5 (process_request_thread) : Fetched and parsed Flipkart search page
+2024-05-26 02:02:00,933 INFO aapp1 Thread-5 (process_request_thread) : Extracted product links
+2024-05-26 02:02:00,933 INFO aapp1 Thread-5 (process_request_thread) : Product link constructed: https://www.flipkart.com/apple-iphone-11-black-64-gb/p/itm4e5041ba101fd?pid=MOBFWQ6BXGJCEYNY&lid=LSTMOBFWQ6BXGJCEYNYHWAXCG&marketplace=FLIPKART&q=iphone11&store=tyy%2F4io&srno=s_1_3&otracker=search&fm=organic&iid=6d8fc165-1e33-4590-b5c3-164bacc8c479.MOBFWQ6BXGJCEYNY.SEARCH&ppt=None&ppn=None&ssid=cezk4agfr40000001716714108259&qH=d6db477051465f9a
+2024-05-26 02:02:01,676 INFO aapp1 Thread-5 (process_request_thread) : Fetched and parsed product details page
+2024-05-26 02:02:01,685 INFO aapp1 Thread-5 (process_request_thread) : Last link extracted: /apple-iphone-11-black-64-gb/product-reviews/itm4e5041ba101fd?pid=MOBFWQ6BXGJCEYNY&lid=LSTMOBFWQ6BXGJCEYNYHWAXCG&marketplace=FLIPKART
+2024-05-26 02:02:01,686 INFO aapp1 Thread-5 (process_request_thread) : Full product link constructed: https://www.flipkart.com/apple-iphone-11-black-64-gb/product-reviews/itm4e5041ba101fd?pid=MOBFWQ6BXGJCEYNY&lid=LSTMOBFWQ6BXGJCEYNYHWAXCG&marketplace=FLIPKART
+2024-05-26 02:02:03,109 INFO aapp1 Thread-5 (process_request_thread) : Fetched and parsed final product details page
+2024-05-26 02:02:03,112 INFO aapp1 Thread-5 (process_request_thread) : Collected results from comment boxes
+2024-05-26 02:02:03,113 DEBUG pymongo.serverSelection Thread-5 (process_request_thread) : {"message": "Server selection started", "selector": "<function writable_server_selector at 0x000001EB87FD25C0>", "operation": "insert", "operationId": 1010407439, "topologyDescription": "<TopologyDescription id: 6652fa88ec0e34cf0ebb0ce4, topology_type: ReplicaSetWithPrimary, servers: [<ServerDescription ('ac-dizopck-shard-00-00.vwmjzqx.mongodb.net', 27017) server_type: RSSecondary, rtt: 0.0319999999992433>, <ServerDescription ('ac-dizopck-shard-00-01.vwmjzqx.mongodb.net', 27017) server_type: RSSecondary, rtt: 0.06300000000010186>, <ServerDescription ('ac-dizopck-shard-00-02.vwmjzqx.mongodb.net', 27017) server_type: RSPrimary, rtt: 0.06300000000010186>]>", "clientId": {"$oid": "6652fa88ec0e34cf0ebb0ce4"}}
+2024-05-26 02:02:03,113 DEBUG pymongo.serverSelection Thread-5 (process_request_thread) : {"message": "Server selection succeeded", "selector": "<function writable_server_selector at 0x000001EB87FD25C0>", "operation": "insert", "operationId": 1010407439, "topologyDescription": "<TopologyDescription id: 6652fa88ec0e34cf0ebb0ce4, topology_type: ReplicaSetWithPrimary, servers: [<ServerDescription ('ac-dizopck-shard-00-00.vwmjzqx.mongodb.net', 27017) server_type: RSSecondary, rtt: 0.0319999999992433>, <ServerDescription ('ac-dizopck-shard-00-01.vwmjzqx.mongodb.net', 27017) server_type: RSSecondary, rtt: 0.06300000000010186>, <ServerDescription ('ac-dizopck-shard-00-02.vwmjzqx.mongodb.net', 27017) server_type: RSPrimary, rtt: 0.06300000000010186>]>", "clientId": {"$oid": "6652fa88ec0e34cf0ebb0ce4"}, "serverHost": "ac-dizopck-shard-00-02.vwmjzqx.mongodb.net", "serverPort": 27017}
+2024-05-26 02:02:04,303 ERROR aapp1 Thread-5 (process_request_thread) : An error occurred: bad auth : authentication failed, full error: {'ok': 0, 'errmsg': 'bad auth : authentication failed', 'code': 8000, 'codeName': 'AtlasError'}
+Traceback (most recent call last):
+  File "C:\Users\admin\PycharmProjects\pythonProject1\FLIPKART_REVIEW_PROJECT\aapp1.py", line 114, in search
+    mycollection.insert_many(results)
+  File "C:\Users\admin\PycharmProjects\pythonProject1\.venv\Lib\site-packages\pymongo\_csot.py", line 108, in csot_wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\admin\PycharmProjects\pythonProject1\.venv\Lib\site-packages\pymongo\collection.py", line 742, in insert_many
+    blk.execute(write_concern, session, _Op.INSERT)
+  File "C:\Users\admin\PycharmProjects\pythonProject1\.venv\Lib\site-packages\pymongo\bulk.py", line 595, in execute
+    return self.execute_command(generator, write_concern, session, operation)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\admin\PycharmProjects\pythonProject1\.venv\Lib\site-packages\pymongo\bulk.py", line 452, in execute_command
+    client._retryable_write(
+  File "C:\Users\admin\PycharmProjects\pythonProject1\.venv\Lib\site-packages\pymongo\mongo_client.py", line 1569, in _retryable_write
+    return self._retry_with_session(retryable, func, s, bulk, operation, operation_id)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\admin\PycharmProjects\pythonProject1\.venv\Lib\site-packages\pymongo\mongo_client.py", line 1455, in _retry_with_session
+    return self._retry_internal(
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\admin\PycharmProjects\pythonProject1\.venv\Lib\site-packages\pymongo\_csot.py", line 108, in csot_wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\admin\PycharmProjects\pythonProject1\.venv\Lib\site-packages\pymongo\mongo_client.py", line 1501, in _retry_internal
+    ).run()
+      ^^^^^
+  File "C:\Users\admin\PycharmProjects\pythonProject1\.venv\Lib\site-packages\pymongo\mongo_client.py", line 2347, in run
+    return self._read() if self._is_read else self._write()
+                                              ^^^^^^^^^^^^^
+  File "C:\Users\admin\PycharmProjects\pythonProject1\.venv\Lib\site-packages\pymongo\mongo_client.py", line 2451, in _write
+    with self._client._checkout(self._server, self._session) as conn:
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\contextlib.py", line 137, in __enter__
+    return next(self.gen)
+           ^^^^^^^^^^^^^^
+  File "C:\Users\admin\PycharmProjects\pythonProject1\.venv\Lib\site-packages\pymongo\mongo_client.py", line 1260, in _checkout
+    with server.checkout(handler=err_handler) as conn:
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\contextlib.py", line 137, in __enter__
+    return next(self.gen)
+           ^^^^^^^^^^^^^^
+  File "C:\Users\admin\PycharmProjects\pythonProject1\.venv\Lib\site-packages\pymongo\pool.py", line 1758, in checkout
+    conn = self._get_conn(checkout_started_time, handler=handler)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\admin\PycharmProjects\pythonProject1\.venv\Lib\site-packages\pymongo\pool.py", line 1916, in _get_conn
+    conn = self.connect(handler=handler)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\admin\PycharmProjects\pythonProject1\.venv\Lib\site-packages\pymongo\pool.py", line 1720, in connect
+    conn.authenticate()
+  File "C:\Users\admin\PycharmProjects\pythonProject1\.venv\Lib\site-packages\pymongo\pool.py", line 1093, in authenticate
+    auth.authenticate(creds, self, reauthenticate=reauthenticate)
+  File "C:\Users\admin\PycharmProjects\pythonProject1\.venv\Lib\site-packages\pymongo\auth.py", line 656, in authenticate
+    auth_func(credentials, conn)
+  File "C:\Users\admin\PycharmProjects\pythonProject1\.venv\Lib\site-packages\pymongo\auth.py", line 560, in _authenticate_default
+    return _authenticate_scram(credentials, conn, "SCRAM-SHA-1")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\admin\PycharmProjects\pythonProject1\.venv\Lib\site-packages\pymongo\auth.py", line 338, in _authenticate_scram
+    res = conn.command(source, cmd)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\admin\PycharmProjects\pythonProject1\.venv\Lib\site-packages\pymongo\helpers.py", line 327, in inner
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\admin\PycharmProjects\pythonProject1\.venv\Lib\site-packages\pymongo\pool.py", line 985, in command
+    return command(
+           ^^^^^^^^
+  File "C:\Users\admin\PycharmProjects\pythonProject1\.venv\Lib\site-packages\pymongo\network.py", line 212, in command
+    helpers._check_command_response(
+  File "C:\Users\admin\PycharmProjects\pythonProject1\.venv\Lib\site-packages\pymongo\helpers.py", line 233, in _check_command_response
+    raise OperationFailure(errmsg, code, response, max_wire_version)
+pymongo.errors.OperationFailure: bad auth : authentication failed, full error: {'ok': 0, 'errmsg': 'bad auth : authentication failed', 'code': 8000, 'codeName': 'AtlasError'}
+2024-05-26 02:02:04,320 INFO werkzeug Thread-5 (process_request_thread) : 192.168.80.164 - - [26/May/2024 02:02:04] "POST /search HTTP/1.1" 200 -
+2024-05-26 02:02:08,018 INFO aapp1 Thread-8 (process_request_thread) : Search initiated for keyword: iphone11
+2024-05-26 02:02:08,225 INFO aapp1 Thread-8 (process_request_thread) : Connected to MongoDB
+2024-05-26 02:02:08,759 INFO aapp1 Thread-8 (process_request_thread) : Fetched and parsed Flipkart search page
+2024-05-26 02:02:08,774 INFO aapp1 Thread-8 (process_request_thread) : Extracted product links
+2024-05-26 02:02:08,774 INFO aapp1 Thread-8 (process_request_thread) : Product link constructed: https://www.flipkart.com/apple-iphone-11-black-64-gb/p/itm4e5041ba101fd?pid=MOBFWQ6BXGJCEYNY&lid=LSTMOBFWQ6BXGJCEYNYHWAXCG&marketplace=FLIPKART&q=iphone11&store=tyy%2F4io&srno=s_1_3&otracker=search&fm=organic&iid=deb59629-8a9d-4fde-b722-c66fea6f9ebb.MOBFWQ6BXGJCEYNY.SEARCH&ppt=None&ppn=None&ssid=2nhh7kwjgw0000001716714116202&qH=d6db477051465f9a
+2024-05-26 02:02:09,658 INFO aapp1 Thread-8 (process_request_thread) : Fetched and parsed product details page
+2024-05-26 02:02:09,665 INFO aapp1 Thread-8 (process_request_thread) : Last link extracted: /apple-iphone-11-black-64-gb/product-reviews/itm4e5041ba101fd?pid=MOBFWQ6BXGJCEYNY&lid=LSTMOBFWQ6BXGJCEYNYHWAXCG&marketplace=FLIPKART
+2024-05-26 02:02:09,666 INFO aapp1 Thread-8 (process_request_thread) : Full product link constructed: https://www.flipkart.com/apple-iphone-11-black-64-gb/product-reviews/itm4e5041ba101fd?pid=MOBFWQ6BXGJCEYNY&lid=LSTMOBFWQ6BXGJCEYNYHWAXCG&marketplace=FLIPKART
+2024-05-26 02:02:10,320 INFO aapp1 Thread-8 (process_request_thread) : Fetched and parsed final product details page
+2024-05-26 02:02:10,323 INFO aapp1 Thread-8 (process_request_thread) : Collected results from comment boxes
+2024-05-26 02:02:10,323 DEBUG pymongo.serverSelection Thread-8 (process_request_thread) : {"message": "Server selection started", "selector": "<function writable_server_selector at 0x000001EB87FD25C0>", "operation": "insert", "operationId": -1593536544, "topologyDescription": "<TopologyDescription id: 6652fa90ec0e34cf0ebb0cef, topology_type: ReplicaSetWithPrimary, servers: [<ServerDescription ('ac-dizopck-shard-00-00.vwmjzqx.mongodb.net', 27017) server_type: RSSecondary, rtt: 0.030999999999039574>, <ServerDescription ('ac-dizopck-shard-00-01.vwmjzqx.mongodb.net', 27017) server_type: RSSecondary, rtt: 0.09399999999914144>, <ServerDescription ('ac-dizopck-shard-00-02.vwmjzqx.mongodb.net', 27017) server_type: RSPrimary, rtt: 0.030999999999039574>]>", "clientId": {"$oid": "6652fa90ec0e34cf0ebb0cef"}}
+2024-05-26 02:02:10,323 DEBUG pymongo.serverSelection Thread-8 (process_request_thread) : {"message": "Server selection succeeded", "selector": "<function writable_server_selector at 0x000001EB87FD25C0>", "operation": "insert", "operationId": -1593536544, "topologyDescription": "<TopologyDescription id: 6652fa90ec0e34cf0ebb0cef, topology_type: ReplicaSetWithPrimary, servers: [<ServerDescription ('ac-dizopck-shard-00-00.vwmjzqx.mongodb.net', 27017) server_type: RSSecondary, rtt: 0.030999999999039574>, <ServerDescription ('ac-dizopck-shard-00-01.vwmjzqx.mongodb.net', 27017) server_type: RSSecondary, rtt: 0.09399999999914144>, <ServerDescription ('ac-dizopck-shard-00-02.vwmjzqx.mongodb.net', 27017) server_type: RSPrimary, rtt: 0.030999999999039574>]>", "clientId": {"$oid": "6652fa90ec0e34cf0ebb0cef"}, "serverHost": "ac-dizopck-shard-00-02.vwmjzqx.mongodb.net", "serverPort": 27017}
+2024-05-26 02:02:10,489 ERROR aapp1 Thread-8 (process_request_thread) : An error occurred: bad auth : authentication failed, full error: {'ok': 0, 'errmsg': 'bad auth : authentication failed', 'code': 8000, 'codeName': 'AtlasError'}
+Traceback (most recent call last):
+  File "C:\Users\admin\PycharmProjects\pythonProject1\FLIPKART_REVIEW_PROJECT\aapp1.py", line 114, in search
+    mycollection.insert_many(results)
+  File "C:\Users\admin\PycharmProjects\pythonProject1\.venv\Lib\site-packages\pymongo\_csot.py", line 108, in csot_wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\admin\PycharmProjects\pythonProject1\.venv\Lib\site-packages\pymongo\collection.py", line 742, in insert_many
+    blk.execute(write_concern, session, _Op.INSERT)
+  File "C:\Users\admin\PycharmProjects\pythonProject1\.venv\Lib\site-packages\pymongo\bulk.py", line 595, in execute
+    return self.execute_command(generator, write_concern, session, operation)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\admin\PycharmProjects\pythonProject1\.venv\Lib\site-packages\pymongo\bulk.py", line 452, in execute_command
+    client._retryable_write(
+  File "C:\Users\admin\PycharmProjects\pythonProject1\.venv\Lib\site-packages\pymongo\mongo_client.py", line 1569, in _retryable_write
+    return self._retry_with_session(retryable, func, s, bulk, operation, operation_id)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\admin\PycharmProjects\pythonProject1\.venv\Lib\site-packages\pymongo\mongo_client.py", line 1455, in _retry_with_session
+    return self._retry_internal(
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\admin\PycharmProjects\pythonProject1\.venv\Lib\site-packages\pymongo\_csot.py", line 108, in csot_wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\admin\PycharmProjects\pythonProject1\.venv\Lib\site-packages\pymongo\mongo_client.py", line 1501, in _retry_internal
+    ).run()
+      ^^^^^
+  File "C:\Users\admin\PycharmProjects\pythonProject1\.venv\Lib\site-packages\pymongo\mongo_client.py", line 2347, in run
+    return self._read() if self._is_read else self._write()
+                                              ^^^^^^^^^^^^^
+  File "C:\Users\admin\PycharmProjects\pythonProject1\.venv\Lib\site-packages\pymongo\mongo_client.py", line 2451, in _write
+    with self._client._checkout(self._server, self._session) as conn:
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\contextlib.py", line 137, in __enter__
+    return next(self.gen)
+           ^^^^^^^^^^^^^^
+  File "C:\Users\admin\PycharmProjects\pythonProject1\.venv\Lib\site-packages\pymongo\mongo_client.py", line 1260, in _checkout
+    with server.checkout(handler=err_handler) as conn:
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\contextlib.py", line 137, in __enter__
+    return next(self.gen)
+           ^^^^^^^^^^^^^^
+  File "C:\Users\admin\PycharmProjects\pythonProject1\.venv\Lib\site-packages\pymongo\pool.py", line 1758, in checkout
+    conn = self._get_conn(checkout_started_time, handler=handler)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\admin\PycharmProjects\pythonProject1\.venv\Lib\site-packages\pymongo\pool.py", line 1916, in _get_conn
+    conn = self.connect(handler=handler)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\admin\PycharmProjects\pythonProject1\.venv\Lib\site-packages\pymongo\pool.py", line 1720, in connect
+    conn.authenticate()
+  File "C:\Users\admin\PycharmProjects\pythonProject1\.venv\Lib\site-packages\pymongo\pool.py", line 1093, in authenticate
+    auth.authenticate(creds, self, reauthenticate=reauthenticate)
+  File "C:\Users\admin\PycharmProjects\pythonProject1\.venv\Lib\site-packages\pymongo\auth.py", line 656, in authenticate
+    auth_func(credentials, conn)
+  File "C:\Users\admin\PycharmProjects\pythonProject1\.venv\Lib\site-packages\pymongo\auth.py", line 560, in _authenticate_default
+    return _authenticate_scram(credentials, conn, "SCRAM-SHA-1")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\admin\PycharmProjects\pythonProject1\.venv\Lib\site-packages\pymongo\auth.py", line 338, in _authenticate_scram
+    res = conn.command(source, cmd)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\admin\PycharmProjects\pythonProject1\.venv\Lib\site-packages\pymongo\helpers.py", line 327, in inner
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\admin\PycharmProjects\pythonProject1\.venv\Lib\site-packages\pymongo\pool.py", line 985, in command
+    return command(
+           ^^^^^^^^
+  File "C:\Users\admin\PycharmProjects\pythonProject1\.venv\Lib\site-packages\pymongo\network.py", line 212, in command
+    helpers._check_command_response(
+  File "C:\Users\admin\PycharmProjects\pythonProject1\.venv\Lib\site-packages\pymongo\helpers.py", line 233, in _check_command_response
+    raise OperationFailure(errmsg, code, response, max_wire_version)
+pymongo.errors.OperationFailure: bad auth : authentication failed, full error: {'ok': 0, 'errmsg': 'bad auth : authentication failed', 'code': 8000, 'codeName': 'AtlasError'}
+2024-05-26 02:02:10,491 INFO werkzeug Thread-8 (process_request_thread) : 192.168.80.164 - - [26/May/2024 02:02:10] "POST /search HTTP/1.1" 200 -
+2024-05-26 02:02:22,059 INFO aapp1 Thread-12 (process_request_thread) : Rendering index page
+2024-05-26 02:02:22,061 INFO werkzeug Thread-12 (process_request_thread) : 192.168.80.164 - - [26/May/2024 02:02:22] "GET / HTTP/1.1" 200 -
+2024-05-26 02:02:26,577 INFO aapp1 Thread-14 (process_request_thread) : Search initiated for keyword: iphone11
+2024-05-26 02:02:26,802 INFO aapp1 Thread-14 (process_request_thread) : Connected to MongoDB
+2024-05-26 02:02:27,417 INFO aapp1 Thread-14 (process_request_thread) : Fetched and parsed Flipkart search page
+2024-05-26 02:02:27,430 INFO aapp1 Thread-14 (process_request_thread) : Extracted product links
+2024-05-26 02:02:27,430 INFO aapp1 Thread-14 (process_request_thread) : Product link constructed: https://www.flipkart.com/apple-iphone-11-white-128-gb/p/itme32df47ea6742?pid=MOBFWQ6B7KKRXDDS&lid=LSTMOBFWQ6B7KKRXDDSULUZ0N&marketplace=FLIPKART&q=iphone11&store=tyy%2F4io&srno=s_1_3&otracker=search&fm=organic&iid=c3db24d3-3759-40ff-9bab-eb8219c72fdf.MOBFWQ6B7KKRXDDS.SEARCH&ppt=None&ppn=None&ssid=635xhh947k0000001716714134898&qH=d6db477051465f9a
+2024-05-26 02:02:28,270 INFO aapp1 Thread-14 (process_request_thread) : Fetched and parsed product details page
+2024-05-26 02:02:28,281 INFO aapp1 Thread-14 (process_request_thread) : Last link extracted: /apple-iphone-11-white-128-gb/product-reviews/itme32df47ea6742?pid=MOBFWQ6B7KKRXDDS&lid=LSTMOBFWQ6B7KKRXDDSULUZ0N&marketplace=FLIPKART
+2024-05-26 02:02:28,281 INFO aapp1 Thread-14 (process_request_thread) : Full product link constructed: https://www.flipkart.com/apple-iphone-11-white-128-gb/product-reviews/itme32df47ea6742?pid=MOBFWQ6B7KKRXDDS&lid=LSTMOBFWQ6B7KKRXDDSULUZ0N&marketplace=FLIPKART
+2024-05-26 02:02:28,899 ERROR aapp1 Thread-14 (process_request_thread) : An error occurred: HTTP Error 429: Too Many Requests
+Traceback (most recent call last):
+  File "C:\Users\admin\PycharmProjects\pythonProject1\FLIPKART_REVIEW_PROJECT\aapp1.py", line 89, in search
+    product_req = urlopen(product_link)
+                  ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\urllib\request.py", line 216, in urlopen
+    return opener.open(url, data, timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\urllib\request.py", line 525, in open
+    response = meth(req, response)
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\urllib\request.py", line 634, in http_response
+    response = self.parent.error(
+               ^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\urllib\request.py", line 563, in error
+    return self._call_chain(*args)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\urllib\request.py", line 496, in _call_chain
+    result = func(*args)
+             ^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\urllib\request.py", line 643, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 429: Too Many Requests
+2024-05-26 02:02:28,903 INFO werkzeug Thread-14 (process_request_thread) : 192.168.80.164 - - [26/May/2024 02:02:28] "POST /search HTTP/1.1" 200 -
+2024-05-26 02:02:32,920 INFO aapp1 Thread-17 (process_request_thread) : Search initiated for keyword: iphone11
+2024-05-26 02:02:33,049 INFO aapp1 Thread-17 (process_request_thread) : Connected to MongoDB
+2024-05-26 02:02:33,586 INFO aapp1 Thread-17 (process_request_thread) : Fetched and parsed Flipkart search page
+2024-05-26 02:02:33,599 INFO aapp1 Thread-17 (process_request_thread) : Extracted product links
+2024-05-26 02:02:33,600 INFO aapp1 Thread-17 (process_request_thread) : Product link constructed: https://www.flipkart.com/apple-iphone-11-black-64-gb/p/itm4e5041ba101fd?pid=MOBFWQ6BXGJCEYNY&lid=LSTMOBFWQ6BXGJCEYNYHWAXCG&marketplace=FLIPKART&q=iphone11&store=tyy%2F4io&srno=s_1_3&otracker=search&fm=organic&iid=77e75804-a9da-496d-a076-8dbb6e3980de.MOBFWQ6BXGJCEYNY.SEARCH&ppt=None&ppn=None&ssid=tbl5ftktww0000001716714141030&qH=d6db477051465f9a
+2024-05-26 02:02:35,109 INFO aapp1 Thread-17 (process_request_thread) : Fetched and parsed product details page
+2024-05-26 02:02:35,119 INFO aapp1 Thread-17 (process_request_thread) : Last link extracted: /apple-iphone-11-black-64-gb/product-reviews/itm4e5041ba101fd?pid=MOBFWQ6BXGJCEYNY&lid=LSTMOBFWQ6BXGJCEYNYHWAXCG&marketplace=FLIPKART
+2024-05-26 02:02:35,119 INFO aapp1 Thread-17 (process_request_thread) : Full product link constructed: https://www.flipkart.com/apple-iphone-11-black-64-gb/product-reviews/itm4e5041ba101fd?pid=MOBFWQ6BXGJCEYNY&lid=LSTMOBFWQ6BXGJCEYNYHWAXCG&marketplace=FLIPKART
+2024-05-26 02:02:36,148 INFO aapp1 Thread-17 (process_request_thread) : Fetched and parsed final product details page
+2024-05-26 02:02:36,151 INFO aapp1 Thread-17 (process_request_thread) : Collected results from comment boxes
+2024-05-26 02:02:36,151 DEBUG pymongo.serverSelection Thread-17 (process_request_thread) : {"message": "Server selection started", "selector": "<function writable_server_selector at 0x000001EB87FD25C0>", "operation": "insert", "operationId": 1461723202, "topologyDescription": "<TopologyDescription id: 6652faa9ec0e34cf0ebb0cfb, topology_type: ReplicaSetWithPrimary, servers: [<ServerDescription ('ac-dizopck-shard-00-00.vwmjzqx.mongodb.net', 27017) server_type: RSSecondary, rtt: 0.0319999999992433>, <ServerDescription ('ac-dizopck-shard-00-01.vwmjzqx.mongodb.net', 27017) server_type: RSSecondary, rtt: 0.0319999999992433>, <ServerDescription ('ac-dizopck-shard-00-02.vwmjzqx.mongodb.net', 27017) server_type: RSPrimary, rtt: 0.0319999999992433>]>", "clientId": {"$oid": "6652faa9ec0e34cf0ebb0cfb"}}
+2024-05-26 02:02:36,151 DEBUG pymongo.serverSelection Thread-17 (process_request_thread) : {"message": "Server selection succeeded", "selector": "<function writable_server_selector at 0x000001EB87FD25C0>", "operation": "insert", "operationId": 1461723202, "topologyDescription": "<TopologyDescription id: 6652faa9ec0e34cf0ebb0cfb, topology_type: ReplicaSetWithPrimary, servers: [<ServerDescription ('ac-dizopck-shard-00-00.vwmjzqx.mongodb.net', 27017) server_type: RSSecondary, rtt: 0.0319999999992433>, <ServerDescription ('ac-dizopck-shard-00-01.vwmjzqx.mongodb.net', 27017) server_type: RSSecondary, rtt: 0.0319999999992433>, <ServerDescription ('ac-dizopck-shard-00-02.vwmjzqx.mongodb.net', 27017) server_type: RSPrimary, rtt: 0.0319999999992433>]>", "clientId": {"$oid": "6652faa9ec0e34cf0ebb0cfb"}, "serverHost": "ac-dizopck-shard-00-02.vwmjzqx.mongodb.net", "serverPort": 27017}
+2024-05-26 02:02:36,338 ERROR aapp1 Thread-17 (process_request_thread) : An error occurred: bad auth : authentication failed, full error: {'ok': 0, 'errmsg': 'bad auth : authentication failed', 'code': 8000, 'codeName': 'AtlasError'}
+Traceback (most recent call last):
+  File "C:\Users\admin\PycharmProjects\pythonProject1\FLIPKART_REVIEW_PROJECT\aapp1.py", line 114, in search
+    mycollection.insert_many(results)
+  File "C:\Users\admin\PycharmProjects\pythonProject1\.venv\Lib\site-packages\pymongo\_csot.py", line 108, in csot_wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\admin\PycharmProjects\pythonProject1\.venv\Lib\site-packages\pymongo\collection.py", line 742, in insert_many
+    blk.execute(write_concern, session, _Op.INSERT)
+  File "C:\Users\admin\PycharmProjects\pythonProject1\.venv\Lib\site-packages\pymongo\bulk.py", line 595, in execute
+    return self.execute_command(generator, write_concern, session, operation)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\admin\PycharmProjects\pythonProject1\.venv\Lib\site-packages\pymongo\bulk.py", line 452, in execute_command
+    client._retryable_write(
+  File "C:\Users\admin\PycharmProjects\pythonProject1\.venv\Lib\site-packages\pymongo\mongo_client.py", line 1569, in _retryable_write
+    return self._retry_with_session(retryable, func, s, bulk, operation, operation_id)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\admin\PycharmProjects\pythonProject1\.venv\Lib\site-packages\pymongo\mongo_client.py", line 1455, in _retry_with_session
+    return self._retry_internal(
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\admin\PycharmProjects\pythonProject1\.venv\Lib\site-packages\pymongo\_csot.py", line 108, in csot_wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\admin\PycharmProjects\pythonProject1\.venv\Lib\site-packages\pymongo\mongo_client.py", line 1501, in _retry_internal
+    ).run()
+      ^^^^^
+  File "C:\Users\admin\PycharmProjects\pythonProject1\.venv\Lib\site-packages\pymongo\mongo_client.py", line 2347, in run
+    return self._read() if self._is_read else self._write()
+                                              ^^^^^^^^^^^^^
+  File "C:\Users\admin\PycharmProjects\pythonProject1\.venv\Lib\site-packages\pymongo\mongo_client.py", line 2451, in _write
+    with self._client._checkout(self._server, self._session) as conn:
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\contextlib.py", line 137, in __enter__
+    return next(self.gen)
+           ^^^^^^^^^^^^^^
+  File "C:\Users\admin\PycharmProjects\pythonProject1\.venv\Lib\site-packages\pymongo\mongo_client.py", line 1260, in _checkout
+    with server.checkout(handler=err_handler) as conn:
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\contextlib.py", line 137, in __enter__
+    return next(self.gen)
+           ^^^^^^^^^^^^^^
+  File "C:\Users\admin\PycharmProjects\pythonProject1\.venv\Lib\site-packages\pymongo\pool.py", line 1758, in checkout
+    conn = self._get_conn(checkout_started_time, handler=handler)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\admin\PycharmProjects\pythonProject1\.venv\Lib\site-packages\pymongo\pool.py", line 1916, in _get_conn
+    conn = self.connect(handler=handler)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\admin\PycharmProjects\pythonProject1\.venv\Lib\site-packages\pymongo\pool.py", line 1720, in connect
+    conn.authenticate()
+  File "C:\Users\admin\PycharmProjects\pythonProject1\.venv\Lib\site-packages\pymongo\pool.py", line 1093, in authenticate
+    auth.authenticate(creds, self, reauthenticate=reauthenticate)
+  File "C:\Users\admin\PycharmProjects\pythonProject1\.venv\Lib\site-packages\pymongo\auth.py", line 656, in authenticate
+    auth_func(credentials, conn)
+  File "C:\Users\admin\PycharmProjects\pythonProject1\.venv\Lib\site-packages\pymongo\auth.py", line 560, in _authenticate_default
+    return _authenticate_scram(credentials, conn, "SCRAM-SHA-1")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\admin\PycharmProjects\pythonProject1\.venv\Lib\site-packages\pymongo\auth.py", line 338, in _authenticate_scram
+    res = conn.command(source, cmd)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\admin\PycharmProjects\pythonProject1\.venv\Lib\site-packages\pymongo\helpers.py", line 327, in inner
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\admin\PycharmProjects\pythonProject1\.venv\Lib\site-packages\pymongo\pool.py", line 985, in command
+    return command(
+           ^^^^^^^^
+  File "C:\Users\admin\PycharmProjects\pythonProject1\.venv\Lib\site-packages\pymongo\network.py", line 212, in command
+    helpers._check_command_response(
+  File "C:\Users\admin\PycharmProjects\pythonProject1\.venv\Lib\site-packages\pymongo\helpers.py", line 233, in _check_command_response
+    raise OperationFailure(errmsg, code, response, max_wire_version)
+pymongo.errors.OperationFailure: bad auth : authentication failed, full error: {'ok': 0, 'errmsg': 'bad auth : authentication failed', 'code': 8000, 'codeName': 'AtlasError'}
+2024-05-26 02:02:36,340 INFO werkzeug Thread-17 (process_request_thread) : 192.168.80.164 - - [26/May/2024 02:02:36] "POST /search HTTP/1.1" 200 -
+2024-05-26 02:03:21,473 INFO werkzeug MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://192.168.80.164:5000
+2024-05-26 02:03:21,473 INFO werkzeug MainThread : [33mPress CTRL+C to quit[0m
+2024-05-26 02:03:21,476 INFO werkzeug MainThread :  * Restarting with stat
+2024-05-26 02:03:22,166 WARNING werkzeug MainThread :  * Debugger is active!
+2024-05-26 02:03:22,168 INFO werkzeug MainThread :  * Debugger PIN: 584-887-622
+2024-05-26 02:03:25,769 INFO aapp1 Thread-2 (process_request_thread) : Rendering index page
+2024-05-26 02:03:25,773 INFO werkzeug Thread-2 (process_request_thread) : 192.168.80.164 - - [26/May/2024 02:03:25] "GET / HTTP/1.1" 200 -
+2024-05-26 02:03:29,876 INFO aapp1 Thread-3 (process_request_thread) : Search initiated for keyword: iphone11
+2024-05-26 02:03:30,025 INFO aapp1 Thread-3 (process_request_thread) : Connected to MongoDB
+2024-05-26 02:03:30,553 INFO aapp1 Thread-3 (process_request_thread) : Fetched and parsed Flipkart search page
+2024-05-26 02:03:30,571 INFO aapp1 Thread-3 (process_request_thread) : Extracted product links
+2024-05-26 02:03:30,571 INFO aapp1 Thread-3 (process_request_thread) : Product link constructed: https://www.flipkart.com/apple-iphone-11-white-128-gb/p/itme32df47ea6742?pid=MOBFWQ6B7KKRXDDS&lid=LSTMOBFWQ6B7KKRXDDSULUZ0N&marketplace=FLIPKART&q=iphone11&store=tyy%2F4io&srno=s_1_3&otracker=search&fm=organic&iid=692e3bb8-03ea-4a5f-aafd-177833ce6c50.MOBFWQ6B7KKRXDDS.SEARCH&ppt=None&ppn=None&ssid=xfokpxzhnk0000001716714198052&qH=d6db477051465f9a
+2024-05-26 02:03:31,270 INFO aapp1 Thread-3 (process_request_thread) : Fetched and parsed product details page
+2024-05-26 02:03:31,280 INFO aapp1 Thread-3 (process_request_thread) : Last link extracted: /apple-iphone-11-white-128-gb/product-reviews/itme32df47ea6742?pid=MOBFWQ6B7KKRXDDS&lid=LSTMOBFWQ6B7KKRXDDSULUZ0N&marketplace=FLIPKART
+2024-05-26 02:03:31,280 INFO aapp1 Thread-3 (process_request_thread) : Full product link constructed: https://www.flipkart.com/apple-iphone-11-white-128-gb/product-reviews/itme32df47ea6742?pid=MOBFWQ6B7KKRXDDS&lid=LSTMOBFWQ6B7KKRXDDSULUZ0N&marketplace=FLIPKART
+2024-05-26 02:03:31,819 INFO aapp1 Thread-3 (process_request_thread) : Fetched and parsed final product details page
+2024-05-26 02:03:31,822 INFO aapp1 Thread-3 (process_request_thread) : Collected results from comment boxes
+2024-05-26 02:03:31,822 DEBUG pymongo.serverSelection Thread-3 (process_request_thread) : {"message": "Server selection started", "selector": "<function writable_server_selector at 0x000001B4E06F25C0>", "operation": "insert", "operationId": 674311035, "topologyDescription": "<TopologyDescription id: 6652fae2005cc8120125e915, topology_type: ReplicaSetWithPrimary, servers: [<ServerDescription ('ac-dizopck-shard-00-00.vwmjzqx.mongodb.net', 27017) server_type: RSSecondary, rtt: 0.0319999999992433>, <ServerDescription ('ac-dizopck-shard-00-01.vwmjzqx.mongodb.net', 27017) server_type: RSSecondary, rtt: 0.0319999999992433>, <ServerDescription ('ac-dizopck-shard-00-02.vwmjzqx.mongodb.net', 27017) server_type: RSPrimary, rtt: 0.0319999999992433>]>", "clientId": {"$oid": "6652fae2005cc8120125e915"}}
+2024-05-26 02:03:31,822 DEBUG pymongo.serverSelection Thread-3 (process_request_thread) : {"message": "Server selection succeeded", "selector": "<function writable_server_selector at 0x000001B4E06F25C0>", "operation": "insert", "operationId": 674311035, "topologyDescription": "<TopologyDescription id: 6652fae2005cc8120125e915, topology_type: ReplicaSetWithPrimary, servers: [<ServerDescription ('ac-dizopck-shard-00-00.vwmjzqx.mongodb.net', 27017) server_type: RSSecondary, rtt: 0.0319999999992433>, <ServerDescription ('ac-dizopck-shard-00-01.vwmjzqx.mongodb.net', 27017) server_type: RSSecondary, rtt: 0.0319999999992433>, <ServerDescription ('ac-dizopck-shard-00-02.vwmjzqx.mongodb.net', 27017) server_type: RSPrimary, rtt: 0.0319999999992433>]>", "clientId": {"$oid": "6652fae2005cc8120125e915"}, "serverHost": "ac-dizopck-shard-00-02.vwmjzqx.mongodb.net", "serverPort": 27017}
+2024-05-26 02:03:31,988 DEBUG pymongo.command Thread-3 (process_request_thread) : {"clientId": {"$oid": "6652fae2005cc8120125e915"}, "message": "Command started", "command": "{\"insert\": \"reviews\", \"ordered\": true, \"writeConcern\": {\"w\": \"majority\"}, \"lsid\": {\"id\": {\"$binary\": {\"base64\": \"4CaUizsuTjSSf3sWda+UaQ==\", \"subType\": \"04\"}}}, \"txnNumber\": 1, \"$clusterTime\": {\"clusterTime\": {\"$timestamp\": {\"t\": 1716714197, \"i\": 26}}, \"signature\": {\"hash\": {\"$binary\": {\"base64\": \"yfq8mGJu7yadSDZYj/B6FnXSc9c=\", \"subType\": \"00\"}}, \"keyId\": 7325056355276947462}}, \"$db\": \"flipkart_reviews1\", \"documents\": [{\"name\": \"Manish  Deshlahare\", \"rating\": \"5\", \"title\": \"Terrific\", \"content\": \"Very very goodREAD MORE\", \"_id\": {\"$oid\": \"6652fae3005cc8120125e916\"}}, {\"name\": \"Abhishek Sachdeva\", \"rating\": \"5\", \"title\": \"Worth every penny\", \"content\": \"Feeling awesome after getting the delivery of my phone. Dual speakers makes the sound quality very loud. Amazing!!READ MORE\", \"_id\": {\"$oid\": \"6652fae3005cc8120125e917\"}}, {\"name\": \"Steevan Rattra \", \"rating\": \"5\", \"title\": \"Best in the market!\", \"content\": \"Good CameraREAD MORE\", \"_id\": {\"$oid\": \"6652fae3005cc8120125e918\"}}, {\"name\": \"Vi...", "commandName": "insert", "databaseName": "flipkart_reviews1", "requestId": 26500, "operationId": 26500, "driverConnectionId": 1, "serverConnectionId": 375619, "serverHost": "ac-dizopck-shard-00-02.vwmjzqx.mongodb.net", "serverPort": 27017}
+2024-05-26 02:03:32,039 DEBUG pymongo.command Thread-3 (process_request_thread) : {"clientId": {"$oid": "6652fae2005cc8120125e915"}, "message": "Command succeeded", "durationMS": 50.58, "reply": "{\"n\": 10, \"electionId\": {\"$oid\": \"7fffffff0000000000000034\"}, \"opTime\": {\"ts\": {\"$timestamp\": {\"t\": 1716714199, \"i\": 35}}, \"t\": 52}, \"ok\": 1.0, \"$clusterTime\": {\"clusterTime\": {\"$timestamp\": {\"t\": 1716714199, \"i\": 35}}, \"signature\": {\"hash\": {\"$binary\": {\"base64\": \"E7iUxDYt2aMb8au0CFFyhMHACW4=\", \"subType\": \"00\"}}, \"keyId\": 7325056355276947462}}, \"operationTime\": {\"$timestamp\": {\"t\": 1716714199, \"i\": 35}}}", "commandName": "insert", "databaseName": "flipkart_reviews1", "requestId": 26500, "operationId": 26500, "driverConnectionId": 1, "serverConnectionId": 375619, "serverHost": "ac-dizopck-shard-00-02.vwmjzqx.mongodb.net", "serverPort": 27017}
+2024-05-26 02:03:32,039 INFO aapp1 Thread-3 (process_request_thread) : Inserted results into MongoDB
+2024-05-26 02:03:32,039 INFO aapp1 Thread-3 (process_request_thread) : Wrote results to CSV file: iphone11_reviews.csv
+2024-05-26 02:03:32,055 INFO werkzeug Thread-3 (process_request_thread) : 192.168.80.164 - - [26/May/2024 02:03:32] "POST /search HTTP/1.1" 200 -
+2024-05-26 02:12:07,944 INFO werkzeug MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-05-26 02:12:07,945 INFO werkzeug MainThread : [33mPress CTRL+C to quit[0m
+2024-05-26 02:12:07,950 INFO werkzeug MainThread :  * Restarting with stat
+2024-05-26 02:12:11,302 WARNING werkzeug MainThread :  * Debugger is active!
+2024-05-26 02:12:11,338 INFO werkzeug MainThread :  * Debugger PIN: 584-887-622
+2024-05-26 02:12:30,740 INFO aapp1 Thread-2 (process_request_thread) : Rendering index page
+2024-05-26 02:12:30,745 INFO werkzeug Thread-2 (process_request_thread) : 127.0.0.1 - - [26/May/2024 02:12:30] "GET / HTTP/1.1" 200 -
+2024-05-26 02:12:32,494 INFO werkzeug Thread-3 (process_request_thread) : 127.0.0.1 - - [26/May/2024 02:12:32] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-05-26 02:12:37,530 INFO aapp1 Thread-4 (process_request_thread) : Search initiated for keyword: iphone11
+2024-05-26 02:12:37,936 INFO aapp1 Thread-4 (process_request_thread) : Connected to MongoDB
+2024-05-26 02:12:38,944 INFO aapp1 Thread-4 (process_request_thread) : Fetched and parsed Flipkart search page
+2024-05-26 02:12:38,958 INFO aapp1 Thread-4 (process_request_thread) : Extracted product links
+2024-05-26 02:12:38,958 INFO aapp1 Thread-4 (process_request_thread) : Product link constructed: https://www.flipkart.com/apple-iphone-11-white-128-gb/p/itme32df47ea6742?pid=MOBFWQ6B7KKRXDDS&lid=LSTMOBFWQ6B7KKRXDDSULUZ0N&marketplace=FLIPKART&q=iphone11&store=tyy%2F4io&srno=s_1_3&otracker=search&fm=organic&iid=4ef7aac3-51d5-4bc1-b158-b118814fdb7a.MOBFWQ6B7KKRXDDS.SEARCH&ppt=None&ppn=None&ssid=c7jh46v9q80000001716714746152&qH=d6db477051465f9a
+2024-05-26 02:12:40,891 INFO aapp1 Thread-4 (process_request_thread) : Fetched and parsed product details page
+2024-05-26 02:12:40,899 INFO aapp1 Thread-4 (process_request_thread) : Last link extracted: /apple-iphone-11-white-128-gb/product-reviews/itme32df47ea6742?pid=MOBFWQ6B7KKRXDDS&lid=LSTMOBFWQ6B7KKRXDDSULUZ0N&marketplace=FLIPKART
+2024-05-26 02:12:40,899 INFO aapp1 Thread-4 (process_request_thread) : Full product link constructed: https://www.flipkart.com/apple-iphone-11-white-128-gb/product-reviews/itme32df47ea6742?pid=MOBFWQ6B7KKRXDDS&lid=LSTMOBFWQ6B7KKRXDDSULUZ0N&marketplace=FLIPKART
+2024-05-26 02:12:42,430 INFO aapp1 Thread-4 (process_request_thread) : Fetched and parsed final product details page
+2024-05-26 02:12:42,433 INFO aapp1 Thread-4 (process_request_thread) : Collected results from comment boxes
+2024-05-26 02:12:42,433 DEBUG pymongo.serverSelection Thread-4 (process_request_thread) : {"message": "Server selection started", "selector": "<function writable_server_selector at 0x00000201173D25C0>", "operation": "insert", "operationId": 1713657430, "topologyDescription": "<TopologyDescription id: 6652fd056cd123a4a9d5c529, topology_type: ReplicaSetWithPrimary, servers: [<ServerDescription ('ac-dizopck-shard-00-00.vwmjzqx.mongodb.net', 27017) server_type: RSSecondary, rtt: 0.031000000000858563>, <ServerDescription ('ac-dizopck-shard-00-01.vwmjzqx.mongodb.net', 27017) server_type: RSSecondary, rtt: 0.5619999999998981>, <ServerDescription ('ac-dizopck-shard-00-02.vwmjzqx.mongodb.net', 27017) server_type: RSPrimary, rtt: 0.015000000001236913>]>", "clientId": {"$oid": "6652fd056cd123a4a9d5c529"}}
+2024-05-26 02:12:42,433 DEBUG pymongo.serverSelection Thread-4 (process_request_thread) : {"message": "Server selection succeeded", "selector": "<function writable_server_selector at 0x00000201173D25C0>", "operation": "insert", "operationId": 1713657430, "topologyDescription": "<TopologyDescription id: 6652fd056cd123a4a9d5c529, topology_type: ReplicaSetWithPrimary, servers: [<ServerDescription ('ac-dizopck-shard-00-00.vwmjzqx.mongodb.net', 27017) server_type: RSSecondary, rtt: 0.031000000000858563>, <ServerDescription ('ac-dizopck-shard-00-01.vwmjzqx.mongodb.net', 27017) server_type: RSSecondary, rtt: 0.5619999999998981>, <ServerDescription ('ac-dizopck-shard-00-02.vwmjzqx.mongodb.net', 27017) server_type: RSPrimary, rtt: 0.015000000001236913>]>", "clientId": {"$oid": "6652fd056cd123a4a9d5c529"}, "serverHost": "ac-dizopck-shard-00-02.vwmjzqx.mongodb.net", "serverPort": 27017}
+2024-05-26 02:12:42,599 DEBUG pymongo.command Thread-4 (process_request_thread) : {"clientId": {"$oid": "6652fd056cd123a4a9d5c529"}, "message": "Command started", "command": "{\"insert\": \"reviews\", \"ordered\": true, \"writeConcern\": {\"w\": \"majority\"}, \"lsid\": {\"id\": {\"$binary\": {\"base64\": \"HA5e2qvpSb+Ikgc1eKApfg==\", \"subType\": \"04\"}}}, \"txnNumber\": 1, \"$clusterTime\": {\"clusterTime\": {\"$timestamp\": {\"t\": 1716714745, \"i\": 33}}, \"signature\": {\"hash\": {\"$binary\": {\"base64\": \"Jq+B/jyXh10BHydEnEGY4z9Wqhg=\", \"subType\": \"00\"}}, \"keyId\": 7325056355276947462}}, \"$db\": \"flipkart_reviews1\", \"documents\": [{\"name\": \"Manish  Deshlahare\", \"rating\": \"5\", \"title\": \"Terrific\", \"content\": \"Very very goodREAD MORE\", \"_id\": {\"$oid\": \"6652fd0a6cd123a4a9d5c52a\"}}, {\"name\": \"Abhishek Sachdeva\", \"rating\": \"5\", \"title\": \"Worth every penny\", \"content\": \"Feeling awesome after getting the delivery of my phone. Dual speakers makes the sound quality very loud. Amazing!!READ MORE\", \"_id\": {\"$oid\": \"6652fd0a6cd123a4a9d5c52b\"}}, {\"name\": \"Steevan Rattra \", \"rating\": \"5\", \"title\": \"Best in the market!\", \"content\": \"Good CameraREAD MORE\", \"_id\": {\"$oid\": \"6652fd0a6cd123a4a9d5c52c\"}}, {\"name\": \"Vi...", "commandName": "insert", "databaseName": "flipkart_reviews1", "requestId": 26500, "operationId": 26500, "driverConnectionId": 1, "serverConnectionId": 376174, "serverHost": "ac-dizopck-shard-00-02.vwmjzqx.mongodb.net", "serverPort": 27017}
+2024-05-26 02:12:42,637 DEBUG pymongo.command Thread-4 (process_request_thread) : {"clientId": {"$oid": "6652fd056cd123a4a9d5c529"}, "message": "Command succeeded", "durationMS": 38.269999999999996, "reply": "{\"n\": 10, \"electionId\": {\"$oid\": \"7fffffff0000000000000034\"}, \"opTime\": {\"ts\": {\"$timestamp\": {\"t\": 1716714750, \"i\": 18}}, \"t\": 52}, \"ok\": 1.0, \"$clusterTime\": {\"clusterTime\": {\"$timestamp\": {\"t\": 1716714750, \"i\": 19}}, \"signature\": {\"hash\": {\"$binary\": {\"base64\": \"N+rK1iQ42PEHF+2Xi6vAZI+vQRw=\", \"subType\": \"00\"}}, \"keyId\": 7325056355276947462}}, \"operationTime\": {\"$timestamp\": {\"t\": 1716714750, \"i\": 18}}}", "commandName": "insert", "databaseName": "flipkart_reviews1", "requestId": 26500, "operationId": 26500, "driverConnectionId": 1, "serverConnectionId": 376174, "serverHost": "ac-dizopck-shard-00-02.vwmjzqx.mongodb.net", "serverPort": 27017}
+2024-05-26 02:12:42,638 INFO aapp1 Thread-4 (process_request_thread) : Inserted results into MongoDB
+2024-05-26 02:12:42,639 INFO aapp1 Thread-4 (process_request_thread) : Wrote results to CSV file: iphone11_reviews.csv
+2024-05-26 02:12:42,646 INFO werkzeug Thread-4 (process_request_thread) : 127.0.0.1 - - [26/May/2024 02:12:42] "POST /search HTTP/1.1" 200 -
+2024-05-26 02:15:41,387 INFO werkzeug MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-05-26 02:15:41,388 INFO werkzeug MainThread : [33mPress CTRL+C to quit[0m
+2024-05-26 02:15:41,390 INFO werkzeug MainThread :  * Restarting with stat
+2024-05-26 02:15:42,477 WARNING werkzeug MainThread :  * Debugger is active!
+2024-05-26 02:15:42,480 INFO werkzeug MainThread :  * Debugger PIN: 584-887-622
